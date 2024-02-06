@@ -1,23 +1,12 @@
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
    fill: currentcolor;
    display: block;
-   height: 20rem;
+   height: 3rem;
    width: auto;
 }
 
-.body {
-   color: black;
-   font-family: 'Courier New', Courier, monospace !important;
+.md-social__link svg {
+   max-height: 4rem;
+   vertical-align: 25%;
+   padding-left: 0.3rem;
 }
-.div {
-   font-family: 'Courier New', Courier, monospace !important;
-}
-#mixes .div {
-   font-family: 'Courier New', Courier, monospace !important;
-   color: #000;
-}
-.p {
-   color: black;
-   font-family: 'Courier New', Courier, monospace !important;
-}
-
