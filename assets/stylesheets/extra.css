@@ -6,10 +6,10 @@
 }
 
 .md-social {
-   gap: 0.5rem;
+   gap: 1rem;
 }
 .md-social__link svg {
-   transform: scale(2);
+   transform: scale(1.7);
    transform-origin: center;
 }
 

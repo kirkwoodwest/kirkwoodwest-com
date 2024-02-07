@@ -6,12 +6,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/tags/</loc>
+         <loc>https://kirkwoodwest.com/about/</loc>
          <lastmod>2024-02-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/pages/about/</loc>
+         <loc>https://kirkwoodwest.com/links/</loc>
+         <lastmod>2024-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/merch/</loc>
+         <lastmod>2024-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/music/</loc>
+         <lastmod>2024-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/parties/</loc>
+         <lastmod>2024-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/services/</loc>
+         <lastmod>2024-02-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/tags/</loc>
          <lastmod>2024-02-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -21,22 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/pages/links/</loc>
-         <lastmod>2024-02-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://kirkwoodwest.com/pages/livePA/</loc>
-         <lastmod>2024-02-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/merch/</loc>
-         <lastmod>2024-02-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/music/</loc>
          <lastmod>2024-02-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -46,17 +56,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/pages/parties/</loc>
-         <lastmod>2024-02-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://kirkwoodwest.com/pages/projects/</loc>
-         <lastmod>2024-02-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/services/</loc>
          <lastmod>2024-02-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
