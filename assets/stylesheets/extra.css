@@ -5,17 +5,83 @@
    width: auto;
 }
 
+.md-social {
+   gap: 0.5rem;
+}
 .md-social__link svg {
-   max-height: 4rem;
-   vertical-align: 25%;
-   padding-left: 0.3rem;
+   transform: scale(2);
+   transform-origin: center;
+}
+
+.md-content h1, h2, h3 {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.md-content {
+   max-width: 30rem;
+}
+
+.md-content p {
+   text-align: justify;
 }
 
 .md-header__ellipsis {
-   font-size: 2rem;
+   font-size: 1.5rem;
    overflow: hidden;
    text-overflow: ellipsis;
    text-transform: uppercase;
    font-weight: bolder;
    letter-spacing: -0.1px;
 }
+
+@media screen and (max-width: 50em) {
+   .md-header__ellipsis {
+      font-size: 1.0rem;
+   }
+}
+
+.md-nav__title {
+   display: flex;
+   align-items: center; /* Align items vertically in the center */
+   justify-content: flex-start; /* Align items horizontally to the start */
+   flex-wrap: nowrap; /* Prevent items from wrapping */
+}
+
+.twemoji {
+   vertical-align: middle !important; 
+}
+
+.md-nav__button {
+   margin-right: 10px; /* Adjust for spacing */
+   display: flex; /* Apply flexbox */
+   align-items: center; /* Center align items */
+}
+
+.md-nav__button img {
+   max-width: 100%; /* Ensure image is not too large */
+   height: auto; /* Maintain aspect ratio */
+}
+
+/*uppercasing*/
+.md-nav__list {
+   text-transform: uppercase;    
+}
+.md-tabs__link {
+   text-transform: uppercase;  
+}
+.md-nav__title {
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+
+
+
+.md-nav--primary .md-nav__title .md-logo {
+      display: block;
+      left: .2rem;
+      margin: .2rem;
+      /* padding:.4rem; */
+      position: absolute;
+      /* right:.2rem; */
+      top: .2rem
+   }
