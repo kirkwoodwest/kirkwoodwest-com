@@ -1,5 +1,11 @@
 /*Replace background image */
-.md-nav__title, .md-footer-meta {
+.md-main {
+   background-image: url('../images/background_noise.jpg');
+   background-repeat: repeat;
+}
+
+
+.md-nav__title {
    background: transparent !important;
     box-shadow: none !important;
     /* position: sticky;
@@ -7,15 +13,22 @@
     z-index: 1; */
 }
 
+
+.md-footer-meta {
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
 .md-sidebar--primary, .md-footer, md-footer-meta {
    background-image: url('../images/background_noise.jpg');
+   background-repeat: repeat;
    
 }
 
 .md-nav--primary, .md-nav--primary .md-nav .md-nav__title~.md-nav__list  {
    background-color: transparent !important; /* Remove the background color */
    background-image: url('../images/background_noise.jpg') !important; /* Set your desired background image */
-  }
+   background-repeat: repeat;
+}
 
 .md-nav--primary .md-nav__title~.md-nav__list {
    background-color: transparent !important; /* Change or remove the background color */
@@ -69,15 +82,6 @@
 .md-content p {
    text-align: justify;
 }
-.md-main {
-   background-image: url('../images/background_noise.jpg');
-   background-size: cover; /* Cover the entire viewport */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-attachment: fixed; /* The background is fixed with regard to the viewport */
-   background-position: center; /* Center the image in the viewport */
-}
-
-
 
 
 
@@ -108,3 +112,4 @@
 .twemoji {
    vertical-align: middle !important; 
 }
+
