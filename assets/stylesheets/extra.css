@@ -1,23 +1,45 @@
-
-
-.md-social {
-   gap: 1rem;
-}
-.md-social__link svg {
-   transform: scale(1.7);
-   transform-origin: center;
-}
-
-.md-content h1, h2, h3 {
-   text-transform: uppercase;
-   font-weight: bold;
+/*Replace background image */
+.md-nav__title, .md-footer-meta {
+   background: transparent !important;
+    box-shadow: none !important;
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
 }
 
-
-.md-content p {
-   text-align: justify;
+.md-sidebar--primary, .md-footer, md-footer-meta {
+   background-image: url('../images/background_noise.jpg');
+   
 }
 
+.md-nav--primary, .md-nav--primary .md-nav .md-nav__title~.md-nav__list  {
+   background-color: transparent !important; /* Remove the background color */
+   background-image: url('../images/background_noise.jpg') !important; /* Set your desired background image */
+  }
+
+.md-nav--primary .md-nav__title~.md-nav__list {
+   background-color: transparent !important; /* Change or remove the background color */
+   box-shadow: none !important; /* Remove the box shadow */
+}
+
+/* Footer Adjustments */
+.md-footer__title {
+   margin-bottom: 0;
+}
+
+.md-footer__button svg {
+   transform: scale(1.5);
+}
+
+/* Make Logo Big */
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+   fill: currentcolor;
+   display: block;
+   height: 3rem;
+   width: auto;
+}
+
+/* Make Header Text Big */
 .md-header__ellipsis {
    font-size: 1.5rem;
    overflow: hidden;
@@ -26,18 +48,50 @@
    font-weight: bolder;
    letter-spacing: -0.1px;
 }
-
+/* Resize text for smaller screens*/
 @media screen and (max-width: 50em) {
    .md-header__ellipsis {
       font-size: 1.0rem;
    }
 }
 
-.twemoji {
-   vertical-align: middle !important; 
+/* Stylize Social Links */
+.md-social {
+   gap: 1rem;
 }
 
-/*uppercasing*/
+.md-social__link svg {
+   transform: scale(1.7);
+   transform-origin: center;
+}
+
+/* Justify Text */
+.md-content p {
+   text-align: justify;
+}
+.md-main {
+   background-image: url('../images/background_noise.jpg');
+   background-size: cover; /* Cover the entire viewport */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-attachment: fixed; /* The background is fixed with regard to the viewport */
+   background-position: center; /* Center the image in the viewport */
+}
+
+
+
+
+
+/* Upper Casing Headers */
+.md-content h1, h2, h3 {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.md-ellipsis, .md-footer__direction {
+   text-transform: uppercase;
+}
+
+
+
 .md-nav__list {
    text-transform: uppercase;    
 }
@@ -50,9 +104,7 @@
 }
 
 
-.md-header__button.md-logo img, .md-header__button.md-logo svg {
-   fill: currentcolor;
-   display: block;
-   height: 3rem;
-   width: auto;
+/* Emoji Alignment*/
+.twemoji {
+   vertical-align: middle !important; 
 }

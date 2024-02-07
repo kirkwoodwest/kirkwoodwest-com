@@ -87,7 +87,16 @@
       
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -470,14 +479,14 @@
 <h2 id="me">Me<a class="headerlink" href="#me" title="Permanent link">&para;</a></h2>
 <p>Hello, I'm Kirkwood West. My journey in music and technology began in the 1980s, a time marked by the emergence of groundbreaking electronic devices. Armed with a boombox, a Casio keyboard, a microphone, and an Atari 800, I embarked on a path that would shape my future. These tools were my early teachers, guiding me through my first experiences in sound manipulation and digital creativity.</p>
 <p>From experimenting with the SK-1's sampling capabilities to exploring the basics of programming on the Atari 800, each experience deepened my understanding and passion for music and technology. My approach has always been about blending the familiar with the innovative, continually pushing boundaries to discover new possibilities in sound and digital art. I'm driven by a curiosity to explore the uncharted territories of audio and technology, always in pursuit of the next breakthrough in the ever-evolving landscape of music.</p>
-<p><img alt="" src="../assets/images/about/kirkwoodwest_interdimensional_squirrel_traveler_futuristic_mush_3310aae9-63bf-4615-b85c-7521ee6d3168.png" /></p>
+<p><a class="glightbox" href="../assets/images/about/kirkwoodwest_interdimensional_squirrel_traveler_futuristic_mush_3310aae9-63bf-4615-b85c-7521ee6d3168.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../assets/images/about/kirkwoodwest_interdimensional_squirrel_traveler_futuristic_mush_3310aae9-63bf-4615-b85c-7521ee6d3168.png" /></a></p>
 <h2 id="the-label">The Label<a class="headerlink" href="#the-label" title="Permanent link">&para;</a></h2>
 <p>Kirkwood West isn't just a label; it’s a dynamic journey into the depths of music. What began as a personal mission to reconnect with my musical foundations has grown into a collaborative venture, involving a close-knit circle of friends and family. Together, we explore diverse musical landscapes, blending timeless influences with contemporary sounds.</p>
 <p>Our goal is to craft music that not only resonates with listeners today but also carries the potential to endure and inspire future generations. Kirkwood West serves as a bridge from our studio to the wider world, enabling us to share our creations far and wide. This label is our cosmic vessel, delivering our digital creations from the studio to the world, fostering connections that transcend the ordinary, reaching into the heart of the musical cosmos.</p>
-<p><img alt="" src="../assets/images/about/kirkwoodwest_two_squirrels_on_turntable_crawlling_around_60s_sc_3f71ab2c-81c0-4238-b2f1-6abd9ad0720d.png" /></p>
+<p><a class="glightbox" href="../assets/images/about/kirkwoodwest_two_squirrels_on_turntable_crawlling_around_60s_sc_3f71ab2c-81c0-4238-b2f1-6abd9ad0720d.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../assets/images/about/kirkwoodwest_two_squirrels_on_turntable_crawlling_around_60s_sc_3f71ab2c-81c0-4238-b2f1-6abd9ad0720d.png" /></a></p>
 <h2 id="squirrels-our-interdimensional-companions">Squirrels: Our Interdimensional Companions<a class="headerlink" href="#squirrels-our-interdimensional-companions" title="Permanent link">&para;</a></h2>
 <p>At the core of Kirkwood West is the spirit of the squirrel, our emblem and guide in this interdimensional journey. In the world of Kirkwood West, we embrace the squirrel's essence – agile, inventive, and persistently creative. Just as squirrels gather and build, we too collect diverse sonic elements and construct intricate soundscapes. They are our totem in the music realm, symbolizing our relentless pursuit of creativity and our ability to adapt and thrive in the ever-changing landscape of music. In the squirrel world, we find our kinship; it's a realm where our artistic visions take shape and where every creation is a part of this larger, interconnected ecosystem. Here, in our squirrel-inspired universe, we channel the energy and ingenuity of these spirited creatures, crafting and releasing music that is as dynamic and resourceful as our namesake.</p>
-<p><img alt="" src="../assets/images/about/kirkwoodwest_interdimensional_squirrel_world_futuristic_illustr_4bdda23e-2149-4aef-bcff-ace2270009de.png" /></p>
+<p><a class="glightbox" href="../assets/images/about/kirkwoodwest_interdimensional_squirrel_world_futuristic_illustr_4bdda23e-2149-4aef-bcff-ace2270009de.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../assets/images/about/kirkwoodwest_interdimensional_squirrel_world_futuristic_illustr_4bdda23e-2149-4aef-bcff-ace2270009de.png" /></a></p>
 <p>I <img alt="❤" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2764.svg" title=":heart:" /> SQUIRREL</p>
 
 
@@ -634,5 +643,5 @@
       <script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
