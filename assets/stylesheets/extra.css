@@ -1,9 +1,4 @@
-.md-header__button.md-logo img, .md-header__button.md-logo svg {
-   fill: currentcolor;
-   display: block;
-   height: 3rem;
-   width: auto;
-}
+
 
 .md-social {
    gap: 1rem;
@@ -17,9 +12,7 @@
    text-transform: uppercase;
    font-weight: bold;
 }
-.md-content {
-   max-width: 30rem;
-}
+
 
 .md-content p {
    text-align: justify;
@@ -40,26 +33,8 @@
    }
 }
 
-.md-nav__title {
-   display: flex;
-   align-items: center; /* Align items vertically in the center */
-   justify-content: flex-start; /* Align items horizontally to the start */
-   flex-wrap: nowrap; /* Prevent items from wrapping */
-}
-
 .twemoji {
    vertical-align: middle !important; 
-}
-
-.md-nav__button {
-   margin-right: 10px; /* Adjust for spacing */
-   display: flex; /* Apply flexbox */
-   align-items: center; /* Center align items */
-}
-
-.md-nav__button img {
-   max-width: 100%; /* Ensure image is not too large */
-   height: auto; /* Maintain aspect ratio */
 }
 
 /*uppercasing*/
@@ -70,18 +45,14 @@
    text-transform: uppercase;  
 }
 .md-nav__title {
-   font-size: 2rem;
+   font-size: 1rem;
    text-transform: uppercase;
 }
 
 
-
-.md-nav--primary .md-nav__title .md-logo {
-      display: block;
-      left: .2rem;
-      margin: .2rem;
-      /* padding:.4rem; */
-      position: absolute;
-      /* right:.2rem; */
-      top: .2rem
-   }
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+   fill: currentcolor;
+   display: block;
+   height: 3rem;
+   width: auto;
+}
