@@ -26,8 +26,7 @@
 
 .md-nav--primary, .md-nav--primary .md-nav .md-nav__title~.md-nav__list  {
    background-color: transparent !important; /* Remove the background color */
-   background-image: url('../images/background_noise.jpg') !important; /* Set your desired background image */
-   background-repeat: repeat;
+    background-repeat: repeat;
 }
 
 .md-nav--primary .md-nav__title~.md-nav__list {

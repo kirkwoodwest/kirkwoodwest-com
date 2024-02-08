@@ -277,7 +277,7 @@
 
   
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="Contents">
   
   
   
@@ -286,7 +286,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      On this page
+      Contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -297,12 +297,54 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Releases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#th3worm-wake-up-on-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      TH3WORM: Wake Up On Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rcs-and-th3worm-digital-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      RCS AND TH3WORM: Digital Zone
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#mixes" class="md-nav__link">
     <span class="md-ellipsis">
       Mixes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remixes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-music" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Music
     </span>
   </a>
   
@@ -431,7 +473,7 @@
 
   
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="Contents">
   
   
   
@@ -440,7 +482,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      On this page
+      Contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -451,12 +493,54 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Releases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#th3worm-wake-up-on-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      TH3WORM: Wake Up On Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rcs-and-th3worm-digital-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      RCS AND TH3WORM: Digital Zone
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#mixes" class="md-nav__link">
     <span class="md-ellipsis">
       Mixes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remixes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-music" class="md-nav__link">
+    <span class="md-ellipsis">
+      Free Music
     </span>
   </a>
   
@@ -477,18 +561,98 @@
                   
 
 
+<style>
+.bandcamp-iframe {
+    border: 0;
+    width: 410px;
+    height: 700px;
+}
+</style>
+<style>
+/*BANDCAMP STYLING*/
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.media-content {
+    display: flex;
+    justify-content: center;
+align-items: flex-start;
+    gap: 20px; /* Adjust the space between the image and the iframe */
+}
+
+/*Bandcamp frame alignment */
+.md-main .media-content iframe{
+ padding-top:17px;
+}
+
+.media-content img, .media-content iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.md-main .media-container h3{
+ margin-bottom:0px;
+}
+</style>
 <h1 id="music">Music<a class="headerlink" href="#music" title="Permanent link">&para;</a></h1>
 <h2 id="releases">Releases<a class="headerlink" href="#releases" title="Permanent link">&para;</a></h2>
-<p>Current catalog of official Kirkwood West Releases</p>
-<iframe style="border: 0; width: 325px; height: 325px;" src="https://bandcamp.com/EmbeddedPlayer/album=3361321791/size=large/bgcol=111111/linkcol=0f91ff/minimal=true/transparent=true/" seamless><a href="https://kirkwoodwest.bandcamp.com/album/wake-up-on-time-2">Wake Up On Time by TH3WORM</a></iframe>
-
-<iframe style="border: 0; width: 325px; height: 325px;" src="https://bandcamp.com/EmbeddedPlayer/album=2957091404/size=large/bgcol=111111/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://kirkwoodwest.bandcamp.com/album/digital-zone">Digital Zone by RCS &amp; TH3WORM</a></iframe>
-<iframe style="border: 0; width: 325px; height: 325px;" src="https://bandcamp.com/EmbeddedPlayer/track=2974401412/size=large/bgcol=111111/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://kirkwoodwest.bandcamp.com/track/between-states">Between States by The Worm</a></iframe>
-
+<p>Catalog of Kirkwood West Releases</p>
+<table>
+<thead>
+<tr>
+<th>Catalog</th>
+<th>Artist</th>
+<th>Title</th>
+<th>BPM</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>002</td>
+<td>TH3WORM</td>
+<td><a href="#th3worm-wake-up-on-time">Wake Up On Time</a></td>
+<td>106</td>
+<td>2023-11</td>
+</tr>
+<tr>
+<td>001</td>
+<td>RCS &amp; TH3WORM</td>
+<td><a href="#rcs-and-th3worm-digital-zone">Digital Zone</a></td>
+<td>101-110</td>
+<td>2023-08</td>
+</tr>
+</tbody>
+</table>
+<div class="media-container">
+<h3 id="th3worm-wake-up-on-time"><strong>TH3WORM</strong>: <em>Wake Up On Time</em><a class="headerlink" href="#th3worm-wake-up-on-time" title="Permanent link">&para;</a></h3>
+<div class="media-content">
+<p><a class="glightbox" href="../assets/images/music/002-wakeup_on_time.jpeg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Record Sleeve with image of an eye. Its iris is expanding" src="../assets/images/music/002-wakeup_on_time.jpeg" /></a></p>
+<iframe seamless="seamless" src="https://bandcamp.com/EmbeddedPlayer/album=3361321791/size=large/bgcol=000000/linkcol=0f91ff/artwork=none/transparent=true/" style="border: 0; width: 350px; height: 400px;"><a href="https://kirkwoodwest.bandcamp.com/album/wake-up-on-time-2">Wake Up On Time by TH3WORM</a></iframe>
+</div>
+</div>
+<div class="media-container">
+<h3 id="rcs-and-th3worm-digital-zone"><strong>RCS AND TH3WORM</strong>: <em>Digital Zone</em><a class="headerlink" href="#rcs-and-th3worm-digital-zone" title="Permanent link">&para;</a></h3>
+<div class="media-content">
+<p><a class="glightbox" href="../assets/images/music/001-digital_zone.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Record Sleeve with picture of a digital 3D Grid in perspective" src="../assets/images/music/001-digital_zone.jpg" /></a></p>
+<iframe seamless="seamless" src="https://bandcamp.com/EmbeddedPlayer/album=2957091404/size=large/bgcol=000000/linkcol=0f91ff/artwork=none/transparent=true/" style="border: 0; width: 350px; height: 400px;"><a href="https://kirkwoodwest.bandcamp.com/album/wake-up-on-time-2">Wake Up On Time by TH3WORM</a></iframe>
+</div>
+</div>
 <h2 id="mixes">Mixes<a class="headerlink" href="#mixes" title="Permanent link">&para;</a></h2>
 <p>Mixes and Podcasts by Kirkwood West</p>
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1677665&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kirkwoodwest" title="kirkwoodwest" target="_blank" style="color: #cccccc; text-decoration: none;">kirkwoodwest</a> · <a href="https://soundcloud.com/kirkwoodwest/sets/dj-sets-452" title="DJ Sets" target="_blank" style="color: #cccccc; text-decoration: none;">DJ Sets</a></div>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50460426&color=%23161816&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kirkwoodwest" title="kirkwoodwest" target="_blank" style="color: #cccccc; text-decoration: none;">kirkwoodwest</a> · <a href="https://soundcloud.com/kirkwoodwest/kirkwood-west-live-dj-set-at-luna" title="Kirkwood West - Live DJ Set At Luna 2012-06-20" target="_blank" style="color: #cccccc; text-decoration: none;">Kirkwood West - Live DJ Set At Luna 2012-06-20</a></div>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/23760241&color=%23161816&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kirkwoodwest" title="kirkwoodwest" target="_blank" style="color: #cccccc; text-decoration: none;">kirkwoodwest</a> · <a href="https://soundcloud.com/kirkwoodwest/kirkwood-west-weft-sessions" title="Kirkwood West - Live DJ on WEFT Sessions Sept 2011" target="_blank" style="color: #cccccc; text-decoration: none;">Kirkwood West - Live DJ on WEFT Sessions Sept 2011</a></div>
+
+<h2 id="remixes">Remixes<a class="headerlink" href="#remixes" title="Permanent link">&para;</a></h2>
+<h2 id="free-music">Free Music<a class="headerlink" href="#free-music" title="Permanent link">&para;</a></h2>
+<p>Concept music created to explore the core sound of <strong>Kirkwood West</strong></p>
+<iframe width="100%" height="400" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1677648&color=%23161816&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kirkwoodwest" title="kirkwoodwest" target="_blank" style="color: #cccccc; text-decoration: none;">kirkwoodwest</a> · <a href="https://soundcloud.com/kirkwoodwest/sets/music4u" title="Music for you to download. &lt;3" target="_blank" style="color: #cccccc; text-decoration: none;">Music for you to download. &lt;3</a></div>
 
 
 
@@ -642,6 +806,8 @@
     
     
       <script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
+      
+        <script src="../assets/javascripts/tablesort/tablesort.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
