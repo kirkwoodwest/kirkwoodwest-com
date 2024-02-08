@@ -2,62 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kirkwoodwest.com/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/about/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/links/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <loc>https://kirkwoodwest.com/connect/</loc>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/connect_complete/</loc>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/merch/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/music/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/</loc>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/parties/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/projects/</loc>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/services/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/tags/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch_osc/</loc>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/pages/bitwig-extensions/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/pages/livePA/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/pages/notes/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/pages/projects/</loc>
-         <lastmod>2024-02-07</lastmod>
+         <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
