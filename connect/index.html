@@ -429,6 +429,26 @@
  margin-bottom:20px;
  min-height:48px;
 }
+
+.button.is-primary {
+    background: none; /* Removes background */
+    color: inherit; /* Inherits the text color from the parent */
+    border: 1px solid; /* 1 pixel solid border */
+    padding: 0.5em 1em; /* Adjust padding as needed */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Removes any text decoration */
+    display: inline-block; /* Makes the button inline-block */
+    font-size: inherit; /* Inherits font size from parent */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    outline: none; /* Removes the default focus outline */
+}
+
+.button.is-primary:hover,
+.button.is-primary:focus {
+    background: rgba(0, 0, 0, 0.1); /* Slight background on hover/focus for feedback */
+}
+
 </style>
 
 <div class="container">
@@ -443,22 +463,22 @@
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
-            <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
+            <input class="input" type="text" name="name" placeholder="Name" required>
           </div>
         </div>
         <div class="field">
           <label class="label">Email</label>
           <div class="control">
-            <input class="input" type="email" name="email" placeholder="Enter Your Email" required>
+            <input class="input" type="email" name="email" placeholder="Email Address" required>
           </div>
         </div>
         <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea" name="message" placeholder="Enter Your Message" required></textarea>
+            <textarea class="textarea" name="message" placeholder=" Message" required></textarea>
           </div>
         </div>
-        <button class="button is-primary" type="Submit">Submit</button>
+            <button class="button is-primary" type="Submit">Submit</button>
       </form>
     </div>
   </div>
