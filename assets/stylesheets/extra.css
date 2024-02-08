@@ -3,16 +3,16 @@
    background-image: url('../images/background_noise.jpg');
    background-repeat: repeat;
 }
-
+.md-header {
+   background-image: url('../images/background_noise_blue.jpg');
+   background-repeat: repeat;
+}
 
 
 
 .md-nav__title {
    background: transparent !important;
-    box-shadow: none !important;
-    /* position: sticky;
-    top: 0;
-    z-index: 1; */
+   box-shadow: none !important;
 }
 
 
@@ -28,7 +28,7 @@
 
 .md-nav--primary, .md-nav--primary .md-nav .md-nav__title~.md-nav__list  {
    background-color: transparent !important; /* Remove the background color */
-    background-repeat: repeat;
+   background-repeat: repeat;
 }
 
 .md-nav--primary .md-nav__title~.md-nav__list {
@@ -129,5 +129,3 @@
 .md-container .md-main .md-main__inner{
 margin-top:8px;
 }
-  
-  

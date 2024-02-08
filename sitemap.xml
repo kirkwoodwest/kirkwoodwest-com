@@ -31,11 +31,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/notes/</loc>
-         <lastmod>2024-02-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://kirkwoodwest.com/parties/</loc>
          <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
@@ -56,22 +51,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://kirkwoodwest.com/notes/</loc>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/bitwig-extensions/</loc>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/livePA/</loc>
+         <lastmod>2024-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://kirkwoodwest.com/notes/touch_osc/</loc>
-         <lastmod>2024-02-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/bitwig-extensions/</loc>
-         <lastmod>2024-02-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/livePA/</loc>
-         <lastmod>2024-02-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/pages/notes/</loc>
          <lastmod>2024-02-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
