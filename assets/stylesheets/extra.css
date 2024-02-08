@@ -5,6 +5,8 @@
 }
 
 
+
+
 .md-nav__title {
    background: transparent !important;
     box-shadow: none !important;
@@ -106,8 +108,26 @@
    text-transform: uppercase;
 }
 
+@media screen and (min-width: 1220px) {
+   .md-nav__title {
+      visibility: hidden;
+   }
+}
 
 /* Emoji Alignment*/
 .twemoji {
    vertical-align: middle !important; 
 }
+
+
+/* shrink header */
+.md-header nav{
+   height:101px;
+}
+
+/* make content closer */
+.md-container .md-main .md-main__inner{
+margin-top:8px;
+}
+  
+  
