@@ -95,15 +95,21 @@
    text-transform: uppercase;
    font-weight: bold;
 }
-.md-ellipsis, .md-footer__direction {
+.md-nav--primary {
    text-transform: uppercase;
 }
-.md-nav__list {
+.md-nav--secondary {
+   text-transform: uppercase;
+}
+/* .md-ellipsis, .md-footer__direction {
+   text-transform: uppercase;
+} */
+/* .md-nav__list {
    text-transform: uppercase;    
-}
-.md-tabs__link {
+} */
+/* .md-tabs__link {
    text-transform: uppercase;  
-}
+} */
 .md-nav__title {
    font-size: 1rem;
    text-transform: uppercase;
@@ -123,4 +129,9 @@
 /* make content closer to top */
 .md-container .md-main .md-main__inner{
 margin-top:8px;
+}
+
+/*Code*/
+:root > * {
+   --md-code-bg-color: #08080f88;
 }

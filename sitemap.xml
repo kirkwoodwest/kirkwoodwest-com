@@ -61,17 +61,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kirkwoodwest.com/notes/touch_osc/</loc>
-         <lastmod>2024-02-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://kirkwoodwest.com/notes/bitwig-extensions/</loc>
          <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/bitwig-extensions/code-example/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/lua-enumerations/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/lua-snippets/</loc>
+         <lastmod>2024-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/quick-lua-reference/</loc>
          <lastmod>2024-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
