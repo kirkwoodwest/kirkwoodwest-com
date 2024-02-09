@@ -15,7 +15,8 @@
 
 .md-nav__title {
    background-image: url('../images/background_noise_blue.jpg');
-  
+   background: transparent !important;
+   box-shadow: none !important;
 }
 
 
@@ -109,12 +110,6 @@
 .md-nav__title {
    font-size: 1rem;
    text-transform: uppercase;
-}
-
-@media screen and (min-width: 1220px) {
-   .md-nav__title {
-      visibility: hidden;
-   }
 }
 
 /* Emoji Alignment*/
