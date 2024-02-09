@@ -98,9 +98,6 @@
 .md-ellipsis, .md-footer__direction {
    text-transform: uppercase;
 }
-
-
-
 .md-nav__list {
    text-transform: uppercase;    
 }
@@ -123,7 +120,7 @@
    height:101px;
 }
 
-/* make content closer */
+/* make content closer to top */
 .md-container .md-main .md-main__inner{
 margin-top:8px;
 }
