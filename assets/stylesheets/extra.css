@@ -8,7 +8,10 @@
    background-repeat: repeat;
 }
 
-
+.md-nav {
+   background-image: url('../images/background_noise.jpg');
+   background-repeat: repeat;
+}
 
 .md-nav__title {
    background: transparent !important;
