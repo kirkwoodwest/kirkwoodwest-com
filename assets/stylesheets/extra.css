@@ -14,8 +14,8 @@
 }
 
 .md-nav__title {
-   background: transparent !important;
-   box-shadow: none !important;
+   background-image: url('../images/background_noise_blue.jpg');
+  
 }
 
 
