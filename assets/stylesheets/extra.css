@@ -135,3 +135,32 @@ margin-top:8px;
 :root > * {
    --md-code-bg-color: #08080f88;
 }
+
+
+/* Meta Data Insertions */
+.md-main .date li{
+   list-style-type:none;
+   margin-left:5px !important;
+   margin-bottom:1px !important;
+}
+
+/* Date */
+.md-main .date{
+   font-size: 0.6rem;
+   margin-left:0px !important;
+   margin-top:0px;
+   margin-bottom:0px;
+}
+
+/* Heading */
+.md-main h1{
+   margin-bottom:0px;
+}
+
+/* Releases */
+.md-main h2 {
+   margin-top:15px;
+}
+  
+  
+  
