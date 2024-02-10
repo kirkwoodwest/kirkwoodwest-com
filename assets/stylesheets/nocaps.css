@@ -1,0 +1,7 @@
+   .md-content h2, h3 {
+   text-transform: none;
+   font-weight: bold;
+}
+.md-nav--secondary {
+   text-transform: none;
+}
