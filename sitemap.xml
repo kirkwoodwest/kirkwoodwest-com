@@ -71,17 +71,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/cheatsheet/</loc>
+         <lastmod>2024-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-enumerations/</loc>
          <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-snippets/</loc>
-         <lastmod>2024-02-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://kirkwoodwest.com/notes/touch-osc/touch-osc-lua-reference/</loc>
          <lastmod>2024-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
