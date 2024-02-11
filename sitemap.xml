@@ -2,87 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kirkwoodwest.com/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/about/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/connect_complete/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/contact/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/merch/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/music/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/parties/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/projects/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/services/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/tags/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/bitwig-extensions/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/bitwig-extensions/code-example/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/cheatsheet/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-enumerations/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/lua-functions/</loc>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-snippets/</loc>
-         <lastmod>2024-02-10</lastmod>
+         <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
