@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/controls/</loc>
+         <lastmod>2024-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-enumerations/</loc>
          <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
@@ -87,6 +92,16 @@
     </url>
     <url>
          <loc>https://kirkwoodwest.com/notes/touch-osc/lua-snippets/</loc>
+         <lastmod>2024-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/messages/</loc>
+         <lastmod>2024-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kirkwoodwest.com/notes/touch-osc/properties-and-values/</loc>
          <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>

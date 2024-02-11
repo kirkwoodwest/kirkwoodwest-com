@@ -1,0 +1,13 @@
+/*remove justification from code*/
+.md-typeset table:not([class]) td>:last-child, .md-typeset table:not([class]) th>:last-child {
+   text-wrap: nowrap;
+   text-justify: none;
+}
+.md-typeset .admonition, .md-typeset details {
+   background-color: hsl(0deg 0% 0% / 25%);
+}
+
+.md-typeset table:not([class]) {
+   background-color: hsla(0, 0%, 10%, 0.346); 
+}
+
