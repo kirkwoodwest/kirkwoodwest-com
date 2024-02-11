@@ -1009,14 +1009,14 @@
 
 <p>A collection of my code snippets for Touch OSC.</p>
 <h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>Debug Frame</summary>
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kr">function</span> <span class="nf">debugFrame</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">name</span> <span class="o">..</span> <span class="s1">&#39; ( &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">x</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">y</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">w</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">h</span> <span class="o">..</span> <span class="s1">&#39;)&#39;</span><span class="p">)</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
-<details class="note">
+<details class="code">
 <summary>Debug Lua Table</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kr">function</span> <span class="nf">debugTableInternal</span><span class="p">(</span><span class="n">tableName</span><span class="p">,</span> <span class="n">table</span><span class="p">)</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="kd">local</span> <span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;TABLE: &quot;</span> <span class="o">..</span> <span class="n">tableName</span> <span class="o">..</span> <span class="s2">&quot; {&quot;</span> 
@@ -1040,9 +1040,9 @@
 </span></code></pre></div>
 </details>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>OnReceiveOSC</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Snippet</label><label for="__tabbed_1_2">Snippet 2</label><label for="__tabbed_1_3">Debug</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Snippet</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-Lua highlight"><span class="filename">OSC Callback - Single Value</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
@@ -1055,37 +1055,39 @@
 </span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
-<div class="tabbed-block">
-<div class="language-Lua highlight"><span class="filename">OSC Callback - Loop Values</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  <span class="kd">local</span> <span class="n">arguments</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  <span class="kr">if</span> <span class="n">path</span><span class="o">==</span><span class="s2">&quot;/&quot;</span> <span class="kr">then</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    <span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="n">arguments</span> <span class="kr">do</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>      <span class="kd">local</span> <span class="n">tag</span> <span class="o">=</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">tag</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>      <span class="kd">local</span> <span class="n">v</span> <span class="o">=</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">value</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>    <span class="kr">end</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>  <span class="kr">end</span>
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="kr">end</span>
-</span></code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;onReceiveOSC&#39;</span><span class="p">)</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>  <span class="kd">local</span> <span class="n">arguments</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> path        =&#39;</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>  <span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="n">arguments</span> <span class="kr">do</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> argument    =&#39;</span><span class="p">,</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">tag</span><span class="p">,</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">value</span><span class="p">)</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>  <span class="kr">end</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> connections =&#39;</span><span class="p">,</span> <span class="nb">table.unpack</span><span class="p">(</span><span class="n">connections</span><span class="p">))</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="kr">end</span>
-</span></code></pre></div>
 </div>
 </div>
-</div>
+<p>code "Snippet 2"</p>
+<div class="language-text highlight"><pre><span></span><code>```Lua title=&quot;OSC Callback - Loop Values&quot;
+function onReceiveOSC(message, connections)
+  local path = message[1]
+  local arguments = message[2]
+  if path==&quot;/&quot; then
+    for i=1,#arguments do
+      local tag = arguments[i].tag
+      local v = arguments[i].value
+    end
+  end
+end
+```
+</code></pre></div>
+<p>code "Debug"</p>
+<div class="language-text highlight"><pre><span></span><code>```Lua
+function onReceiveOSC(message, connections)
+  print(self.name, &#39;onReceiveOSC&#39;)
+  local path = message[1]
+  local arguments = message[2]
+  print(&#39;\t path        =&#39;, path)
+  for i=1,#arguments do
+    print(&#39;\t argument    =&#39;, arguments[i].tag, arguments[i].value)
+  end
+  print(&#39;\t connections =&#39;, table.unpack(connections))
+end
+```
+</code></pre></div>
 </details>
 <h2 id="math">Math<a class="headerlink" href="#math" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>Map: Remap a value to a different range</summary>
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kr">function</span> <span class="nf">map</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">oldMin</span><span class="p">,</span> <span class="n">oldMax</span><span class="p">,</span> <span class="n">newMin</span><span class="p">,</span> <span class="n">newMax</span><span class="p">)</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  <span class="kr">return</span> <span class="p">(((</span><span class="n">value</span> <span class="o">-</span> <span class="n">oldMin</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">newMax</span> <span class="o">-</span> <span class="n">newMin</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">oldMax</span> <span class="o">-</span> <span class="n">oldMin</span><span class="p">))</span> <span class="o">+</span> <span class="n">newMin</span>
@@ -1093,7 +1095,7 @@
 </span></code></pre></div>
 </details>
 <h2 id="tables">Tables<a class="headerlink" href="#tables" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>Deep Table Clear</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kr">function</span> <span class="nf">deepClear</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>  <span class="kr">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="kr">in</span> <span class="nb">pairs</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="kr">do</span>
@@ -1118,7 +1120,7 @@
 </span></code></pre></div>
 </details>
 <h2 id="finding-objects">Finding Objects<a class="headerlink" href="#finding-objects" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>All Object Based On Tag</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">local</span> <span class="n">t</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">findAllByProperty</span><span class="p">(</span><span class="s1">&#39;tag&#39;</span><span class="p">,</span> <span class="s1">&#39;3/6&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nb">print</span><span class="p">(</span><span class="o">#</span><span class="n">t</span><span class="p">)</span>
@@ -1128,7 +1130,7 @@
 </span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
-<details class="note">
+<details class="code">
 <summary>Find All Objects Based on Tag With Full Path</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">local</span> <span class="n">objs</span> <span class="o">=</span> <span class="n">root</span><span class="p">:</span><span class="n">findAllByProperty</span><span class="p">(</span><span class="s2">&quot;tag&quot;</span><span class="p">,</span> <span class="s2">&quot;3/5&quot;</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="c1">-- print all object names and their path to root</span>
@@ -1147,7 +1149,7 @@
 </span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
-<details class="note">
+<details class="code">
 <summary>Find Objects via Table of Names</summary>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Deep Search</label><label for="__tabbed_2_2">Same Level Find</label><label for="__tabbed_2_3">Same Level Direct</label></div>
 <div class="tabbed-content">
@@ -1179,7 +1181,7 @@
 </div>
 </details>
 <h2 id="timers">Timers<a class="headerlink" href="#timers" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>Control Double-tap</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">local</span> <span class="n">delay</span> <span class="o">=</span> <span class="mi">300</span>
 </span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="kd">local</span> <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span>
@@ -1197,7 +1199,7 @@
 </span><span id="__span-12-14"><a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
-<details class="note">
+<details class="code">
 <summary>Send Periodic Message</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">local</span> <span class="n">delay</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1">-- every 1000ms = 1s</span>
 </span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="kd">local</span> <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span>
@@ -1212,7 +1214,7 @@
 </span></code></pre></div>
 </details>
 <h2 id="accelerometer">Accelerometer<a class="headerlink" href="#accelerometer" title="Permanent link">&para;</a></h2>
-<details class="note">
+<details class="code">
 <summary>Get accelerometer Data</summary>
 <div class="language-Lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kr">if</span><span class="p">(</span><span class="n">hasAccelerometer</span><span class="p">())</span> <span class="kr">then</span>
 </span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>  <span class="n">update</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>

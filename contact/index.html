@@ -833,51 +833,53 @@
 <h1 id="contact">Contact<a class="headerlink" href="#contact" title="Permanent link">&para;</a></h1>
 <p>Lets get in touch. Fill out some details. Send it over the magical www and you'll have a response shortly.</p>
 <style>
-/* Input */
+/* Input styling */
 #staticform {
   font-family: 'Poppins';
 }
-#staticform input {
- width:290px;
- min-height:40px;
+#staticform input, #staticform textarea {
+  max-width: 780px; /* Maximum width */
+  width: 100%; /* Allows the element to shrink */
+  min-height: 40px;
+}
+
+#staticform textarea {
+  height: 300px; /* Fixed height */
+  font-family: 'Poppins';
 }
 
 .label {
   margin-bottom: 20px;
-}
-#staticform textarea {
- width:700px;  
- height: 300px;
- font-family: 'Poppins';
 }
 
 #staticform .control {
   padding-bottom: 10px;
   font-family: Poppins-Medium !important;
 }
-/* Button */
-#staticform .button{
- margin-bottom:20px;
- min-height:48px;
+
+/* Button styling */
+#staticform .button {
+  margin-bottom: 20px;
+  min-height: 48px;
 }
 
 .button.is-primary {
-    background: none; /* Removes background */
-    color: inherit; /* Inherits the text color from the parent */
-    border: 1px solid; /* 1 pixel solid border */
-    padding: 0.5em 1em; /* Adjust padding as needed */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Removes any text decoration */
-    display: inline-block; /* Makes the button inline-block */
-    font-size: inherit; /* Inherits font size from parent */
-    cursor: pointer; /* Changes cursor to pointer on hover */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    outline: none; /* Removes the default focus outline */
+  background: none;
+  color: inherit;
+  border: 1px solid;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
 }
 
 .button.is-primary:hover,
 .button.is-primary:focus {
-    background: rgba(0, 0, 0, 0.1); /* Slight background on hover/focus for feedback */
+  background: rgba(0, 0, 0, 0.1);
 }
 
 </style>
@@ -890,7 +892,7 @@
         <input type="hidden" name="accessKey" value="ae41b07b-a905-4315-bb5b-47b2adbd51e0">
         <input type="hidden" name="subject" value="Contact From Kirkwood West.com">
         <!-- Replace with the url you want to redirect to -->
-     <input type="hidden" name="redirectTo" value="https://kirkwoodwest.com/connect_complete/">
+        <input type="hidden" name="redirectTo" value="https://kirkwoodwest.com/connect_complete/">
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
@@ -906,10 +908,10 @@
         <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea" name="message" placeholder=" Message" required></textarea>
+            <textarea class="textarea" name="message" placeholder="Message" required></textarea>
           </div>
         </div>
-            <button class="button is-primary" type="Submit">Submit</button>
+        <button class="button is-primary" type="Submit">Submit</button>
       </form>
     </div>
   </div>
