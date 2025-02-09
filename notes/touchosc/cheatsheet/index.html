@@ -541,8 +541,6 @@
       
         
       
-        
-      
     
     
     
@@ -610,27 +608,6 @@
     <span class="md-status md-status--new"></span>
   
 
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../computers/gaming-recent/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gaming recent
-  </span>
   
 
       </a>
@@ -1673,7 +1650,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 </table>
 <p><strong>NOTE</strong> For convenience, indexing a control reference directly using <code>control.name</code> or <code>control[name]</code>, where name is not one of the field or function names listed here, will implicitly index the control's property list with <code>control.properties[name]</code>.</p>
 <p>Therefore <code>control.color</code> and <code>control.properties.color</code> will refer to the same property value.</p>
-<p>See <a href="properties-and-values.md">Control Properties and Values</a> for a list of possible properties for each control type.</p>
+<p>See <a href="./#properties-and-values">Control Properties and Values</a> for a list of possible properties for each control type.</p>
 </details>
 <details class="code">
 <summary>control.values</summary>
@@ -1708,7 +1685,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 </tr>
 </tbody>
 </table>
-<p>See <a href="properties-and-values.md">Control Properties and Values</a> for a list of possible properties for each control type.</p>
+<p>See <a href="./#properties-and-values">Control Properties and Values</a> for a list of possible properties for each control type.</p>
 </details>
 <details class="code">
 <summary>control.messages</summary>
@@ -1726,7 +1703,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 <li>index (a number): <code>1 - 4</code></li>
 </ul>
 <p>The messages in each of the lists will be in the same order as they are displayed in the editor UI.</p>
-<p>See <a href="messages.md">Script · Objects · Messages</a> for a description of the four message object types.</p>
+<p>See <a href="./#messages">Script · Objects · Messages</a> for a description of the four message object types.</p>
 </details>
 <details class="code">
 <summary>control.pointers</summary>
@@ -1778,7 +1755,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 <li>During its lifetime the pointer will be either in state <code>PointerState.ACTIVE</code> or <code>PointerState.MOVE</code> depending on whether the pointer's position has changed since the last frame.</li>
 <li>When the pointer event ends it will be in state <code>PointerState.END</code> for one frame and will then be removed from the list of pointers.</li>
 </ul>
-<p>See <a href="../lua-snippets/">Snippets</a> for more pointer example use.</p>
+<p>See <a href="../lua-snippets/#pointers">Snippets</a> for more pointer example use.</p>
 </details>
 <h3 id="functions">Functions<a class="headerlink" href="#functions" title="Permanent link">&para;</a></h3>
 <details class="code">
@@ -1787,14 +1764,14 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 </span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="n">self</span><span class="p">:</span><span class="n">getValueField</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">ValueField</span><span class="p">.</span><span class="n">DEFAULT</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Returns a value field of the control value with name <code>string</code>, or <code>nil</code> if none is found.</p>
-<p>The parameter <code>field</code> can be one of the possible values of the <a href="lua-enumerations.md"><code>ValueField</code></a> enumeration and determines which value is returned:</p>
+<p>The parameter <code>field</code> can be one of the possible values of the <a href="./"><code>ValueField</code></a> enumeration and determines which value is returned:</p>
 <ul>
 <li><code>ValueField.CURRENT</code> - Returns the current value.</li>
 <li><code>ValueField.LAST</code> - Returns the value before the last change.</li>
 <li><code>ValueField.DEFAULT</code> - Returns the default value.</li>
 </ul>
 <p>Invoking the function with <code>field</code> parameter <code>ValueField.CURRENT</code> is equivalent to referencing <code>control.values[string]</code>.</p>
-<p>See <a href="./">Control Properties and Values</a> for a list of possible values for each control type.</p>
+<p>See <a href="./#properties-and-values">Control Properties and Values</a> for a list of possible values for each control type.</p>
 </details>
 <details class="code">
 <summary>setValueField(string, field, value)</summary>
@@ -1825,7 +1802,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 <li><code>ValueProperty.LOCKED_DEFAULT_CURRENT</code> - Default and current value locked state, a boolean value</li>
 <li><code>ValueProperty.DEFAULT_PULL</code> - Default pull of the value, an integer value ranging from <code>0</code> to <code>100</code></li>
 </ul>
-<p>See <a href="https://hexler.net/touchosc/manual/script-properties-and-values">Control Properties and Values</a> for a list of possible values for each control type.</p>
+<p>See <a href="./#properties-and-values">Control Properties and Values</a> for a list of possible values for each control type.</p>
 </details>
 <details class="code">
 <summary>setValueProperty(string, property, value)</summary>
@@ -1835,7 +1812,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 <p>Set the value of the property <code>property</code> of the control value with name <code>string</code>.</p>
 <p>The parameter <code>property</code> can be one of the possible values of the <a href="https://hexler.net/touchosc/manual/script-enumerations#valueproperty"><code>ValueProperty</code></a> enumeration with the exception of <code>ValueProperty.TYPE</code> and determines which property value is set.</p>
 <p>See the <code>getValueProperty</code> function above for a description of the possible value properties.</p>
-<p>See <a href="https://hexler.net/touchosc/manual/script-properties-and-values">Control Properties and Values</a> for a list of possible values for each control type.</p>
+<p>See <a href="./#properties-and-values">Control Properties and Values</a> for a list of possible values for each control type.</p>
 </details>
 <details class="code">
 <summary>notify(string [, value])</summary>
@@ -1848,7 +1825,7 @@ Returns <code>min(max(x, minVal), maxVal)</code> where <code>x</code> is the fir
 </span></code></pre></div>
 <p>Invokes the <code>onReceiveNotify</code> callback function on another control.</p>
 <p>The parameter <code>string</code> and an optional parameter <code>value</code> will be copied to the receiving control's Lua context and passed to the <a href="https://hexler.net/touchosc/manual/script-objects-control#callback-functions-onreceivenotify"><code>onReceiveNotify</code></a> callback function, only if that callback function is defined in the receiving control's script. Calling the function on <code>self</code> has no effect.</p>
-<p>The optional parameter <code>value</code> can be of type <code>boolean</code>, <code>number</code>, <code>string</code>, <code>table</code> or any of TouchOSC's <a href="https://hexler.net/touchosc/manual/script-objects">object types</a>.</p>
+<p>The optional parameter <code>value</code> can be of type <code>boolean</code>, <code>number</code>, <code>string</code>, <code>table</code> or any of TouchOSC's <a href="./#lua-functions">object types</a>.  </p>
 <p>Please note that because the parameter values have to be copied between Lua execution contexts and because this introduces overhead, it is advisable not to invoke the <code>notify</code> function from inside the <code>update</code> function every frame.</p>
 </details>
 <details class="code">
