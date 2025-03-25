@@ -943,12 +943,16 @@
 <div class="container">
   <div class="columns">
     <div class="column is-half">
+
+
       <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
         <!-- Replace with your StaticForms accessKey -->
         <input type="hidden" name="accessKey" value="ae41b07b-a905-4315-bb5b-47b2adbd51e0">
         <input type="hidden" name="subject" value="Contact From Kirkwood West.com">
         <!-- Replace with the url you want to redirect to -->
-        <input type="hidden" name="redirectTo" value="https://kirkwoodwest.com/connect_complete/">
+          <!-- Enable reply-to functionality -->
+        <input type="hidden" name="replyTo" value="@">
+
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
@@ -967,8 +971,14 @@
             <textarea class="textarea" name="message" placeholder="Message" required></textarea>
           </div>
         </div>
+          <!-- reCAPTCHA integration -->
+        <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <input type="hidden" name="redirectTo" value="https://kirkwoodwest.com/connect_complete/">
         <button class="button is-primary" type="Submit">Submit</button>
       </form>
+
+
     </div>
   </div>
 </div>
