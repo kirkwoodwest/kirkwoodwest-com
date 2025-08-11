@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
@@ -31,7 +31,7 @@
     
     
 
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.f2e4d321.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -59,7 +59,7 @@
     
       <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -68,9 +68,9 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-DKHHZTL6BC"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-DKHHZTL6BC",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-DKHHZTL6BC",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-DKHHZTL6BC"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-DKHHZTL6BC",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-DKHHZTL6BC",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
-    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
   
 
     
@@ -151,7 +151,7 @@
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -175,37 +175,39 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
           <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -216,6 +218,7 @@
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -263,8 +266,10 @@
       <a href="../../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Home
+    
   </span>
   
 
@@ -283,8 +288,10 @@
       <a href="../../../about/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     About
+    
   </span>
   
 
@@ -303,8 +310,10 @@
       <a href="../../../music/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Music
+    
   </span>
   
 
@@ -323,8 +332,10 @@
       <a href="../../../services/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Services
+    
   </span>
   
 
@@ -343,8 +354,10 @@
       <a href="../../../parties/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Parties
+    
   </span>
   
 
@@ -363,8 +376,10 @@
       <a href="../../../merch/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Merch
+    
   </span>
   
 
@@ -402,17 +417,17 @@
       
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
-          
           
           <div class="md-nav__link md-nav__container">
             <a href="../../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Notes
+    
   </span>
   
 
@@ -465,17 +480,17 @@
       
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
-          
           
           <div class="md-nav__link md-nav__container">
             <a href="../../computers/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Computers
+    
   </span>
   
 
@@ -507,8 +522,10 @@
       <a href="../../computers/cross-platform/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Cross Platform Apps
+    
   </span>
   
 
@@ -528,8 +545,10 @@
       <a href="../../computers/ios-apps/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     iOS Apps
+    
   </span>
   
 
@@ -549,8 +568,10 @@
       <a href="../../computers/macos-apps/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Mac OS Apps
+    
   </span>
   
     
@@ -577,8 +598,10 @@
       <a href="../../computers/windows-apps/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Windows Apps
+    
   </span>
   
 
@@ -598,8 +621,10 @@
       <a href="../../computers/www-apps/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Web Apps
+    
   </span>
   
 
@@ -640,17 +665,17 @@
       
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
         
-          
           
           <div class="md-nav__link md-nav__container">
             <a href="../../music-production/" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Music production
+    
   </span>
   
 
@@ -682,8 +707,10 @@
       <a href="../../music-production/preparing-demos/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Preparing and Sending Demos
+    
   </span>
   
 
@@ -728,17 +755,17 @@
       
         
         
-        
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" checked>
         
-          
           
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
     Touchosc
+    
   </span>
   
 
@@ -770,8 +797,10 @@
       <a href="../cheatsheet/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Touch OSC Lua Cheet Sheet
+    
   </span>
   
     
@@ -805,8 +834,10 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
     TouchOSC Snippets
+    
   </span>
   
 
@@ -816,8 +847,10 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
     TouchOSC Snippets
+    
   </span>
   
 
@@ -995,8 +1028,10 @@
       <a href="../../../contact/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
     Contact
+    
   </span>
   
 
@@ -1187,39 +1222,39 @@
 <h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Debug Frame</summary>
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kr">function</span> <span class="nf">debugFrame</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">name</span> <span class="o">..</span> <span class="s1">&#39; ( &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">x</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">y</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">w</span> <span class="o">..</span> <span class="s1">&#39;, &#39;</span> <span class="o">..</span> <span class="n">obj</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">h</span> <span class="o">..</span> <span class="s1">&#39;)&#39;</span><span class="p">)</span>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">debugFrame</span><span class="p">(</span><span class="nv">obj</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">obj</span><span class="p">.</span><span class="py">name</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s1">&#39; ( &#39;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">frame</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s1">&#39;, &#39;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">frame</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s1">&#39;, &#39;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">frame</span><span class="p">.</span><span class="py">w</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s1">&#39;, &#39;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">frame</span><span class="p">.</span><span class="py">h</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s1">&#39;)&#39;</span><span class="p">)</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <details class="code">
 <summary>Debug Lua Table</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kr">function</span> <span class="nf">debugTableInternal</span><span class="p">(</span><span class="n">tableName</span><span class="p">,</span> <span class="n">table</span><span class="p">)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="kd">local</span> <span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;TABLE: &quot;</span> <span class="o">..</span> <span class="n">tableName</span> <span class="o">..</span> <span class="s2">&quot; {&quot;</span> 
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  <span class="kr">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="kr">in</span> <span class="nb">pairs</span><span class="p">(</span><span class="n">table</span><span class="p">)</span> <span class="kr">do</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    <span class="kr">if</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;table&quot;</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>      <span class="kd">local</span> <span class="n">sDeep</span> <span class="o">=</span> <span class="n">debugTable</span><span class="p">(</span><span class="nb">tostring</span><span class="p">(</span><span class="n">k</span><span class="p">),</span> <span class="n">v</span><span class="p">)</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>      <span class="kr">if</span> <span class="p">(</span><span class="n">sDeep</span> <span class="o">~=</span> <span class="kc">nil</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>        <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">..</span> <span class="n">sDeep</span> 
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>      <span class="kr">end</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">debugTableInternal</span><span class="p">(</span><span class="nv">tableName</span><span class="p">,</span><span class="w"> </span><span class="nv">table</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;TABLE: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">tableName</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot; {&quot;</span><span class="w"> </span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="kr">for</span><span class="w"> </span><span class="nv">k</span><span class="p">,</span><span class="w"> </span><span class="nv">v</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">table</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="kr">if</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="nv">v</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;table&quot;</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">      </span><span class="kd">local</span><span class="w"> </span><span class="nv">sDeep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">debugTable</span><span class="p">(</span><span class="nb">tostring</span><span class="p">(</span><span class="nv">k</span><span class="p">),</span><span class="w"> </span><span class="nv">v</span><span class="p">)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">      </span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">sDeep</span><span class="w"> </span><span class="o">~=</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="nv">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">s</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">sDeep</span><span class="w"> </span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">      </span><span class="kr">end</span>
 </span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    <span class="kr">end</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">..</span> <span class="n">k</span> <span class="o">..</span> <span class="s2">&quot;: &quot;</span> <span class="o">..</span> <span class="nb">tostring</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">..</span> <span class="s2">&quot;, &quot;</span>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>  <span class="kr">end</span>
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>  <span class="n">s</span> <span class="o">=</span> <span class="nb">string.sub</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">)</span>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>  <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">..</span> <span class="s2">&quot;}&quot;</span>
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>  <span class="kr">return</span> <span class="n">s</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="kr">end</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nv">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">s</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">k</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nb">tostring</span><span class="p">(</span><span class="nv">v</span><span class="p">)</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;, &quot;</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">  </span><span class="kr">end</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">  </span><span class="nv">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">string.sub</span><span class="p">(</span><span class="nv">s</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">3</span><span class="p">)</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">  </span><span class="nv">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">s</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;}&quot;</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">  </span><span class="kr">return</span><span class="w"> </span><span class="nv">s</span>
 </span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="kr">end</span>
-</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="kr">function</span> <span class="nf">debugTable</span><span class="p">(</span><span class="n">tableName</span><span class="p">,</span> <span class="n">table</span><span class="p">)</span>
-</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">debugTableInternal</span><span class="p">(</span><span class="n">tableName</span><span class="p">,</span> <span class="n">table</span><span class="p">))</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="kr">function</span><span class="w"> </span><span class="nf">debugTable</span><span class="p">(</span><span class="nv">tableName</span><span class="p">,</span><span class="w"> </span><span class="nv">table</span><span class="p">)</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nf">debugTableInternal</span><span class="p">(</span><span class="nv">tableName</span><span class="p">,</span><span class="w"> </span><span class="nv">table</span><span class="p">))</span>
 </span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="per-frame-updates">Per Frame Updates<a class="headerlink" href="#per-frame-updates" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>update()</summary>
-<div class="language-Lua highlight"><span class="filename">Update Callback</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kr">function</span> <span class="nf">update</span><span class="p">()</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;update&#39;</span><span class="p">)</span> 
+<div class="language-Lua highlight"><span class="filename">Update Callback</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">update</span><span class="p">()</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">self</span><span class="p">.</span><span class="py">name</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;update&#39;</span><span class="p">)</span><span class="w"> </span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
@@ -1229,38 +1264,38 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">All Properties</label><label for="__tabbed_1_2">Value - Is Touched</label><label for="__tabbed_1_3">Value X and Touch Active</label><label for="__tabbed_1_4">Value - Debug</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kr">function</span> <span class="nf">onValueChanged</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  <span class="kr">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;x&quot;</span><span class="p">)</span> <span class="kr">then</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onValueChanged</span><span class="p">(</span><span class="nv">key</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;x&quot;</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  <span class="kr">end</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  <span class="kr">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;touch&quot;</span><span class="p">)</span> <span class="kr">then</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">  </span><span class="kr">end</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;touch&quot;</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>  <span class="kr">end</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>  <span class="kr">if</span> <span class="p">(</span><span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;x&quot;</span> <span class="ow">and</span> <span class="n">self</span><span class="p">.</span><span class="n">values</span><span class="p">.</span><span class="n">touch</span><span class="p">)</span> <span class="kr">then</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">  </span><span class="kr">end</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;x&quot;</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">values</span><span class="p">.</span><span class="py">touch</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>  <span class="kr">end</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kr">function</span> <span class="nf">onValueChanged</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>  <span class="kr">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;touch&quot;</span> <span class="ow">and</span> <span class="n">self</span><span class="p">.</span><span class="n">values</span><span class="p">.</span><span class="n">touch</span> <span class="kr">then</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onValueChanged</span><span class="p">(</span><span class="nv">key</span><span class="p">)</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;touch&quot;</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">values</span><span class="p">.</span><span class="py">touch</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>  <span class="kr">end</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kr">function</span> <span class="nf">onValueChanged</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  <span class="kr">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;x&quot;</span> <span class="ow">and</span> <span class="n">self</span><span class="p">.</span><span class="n">values</span><span class="p">.</span><span class="n">touch</span> <span class="kr">then</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onValueChanged</span><span class="p">(</span><span class="nv">key</span><span class="p">)</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;x&quot;</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">values</span><span class="p">.</span><span class="py">touch</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>  <span class="kr">end</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kr">function</span> <span class="nf">onValueChanged</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">values</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onValueChanged</span><span class="p">(</span><span class="nv">key</span><span class="p">)</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">values</span><span class="p">[</span><span class="nv">key</span><span class="p">])</span>
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
@@ -1269,7 +1304,7 @@
 </details>
 <details class="code">
 <summary>Set Value</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">.</span><span class="n">values</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">.</span><span class="py">values</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span>
 </span></code></pre></div>
 </details>
 <h2 id="notify">Notify<a class="headerlink" href="#notify" title="Permanent link">&para;</a></h2>
@@ -1278,18 +1313,18 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Notify - Blank</label><label for="__tabbed_2_2">Notify - Debug</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kr">function</span> <span class="nf">onReceiveNotify</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>  <span class="kr">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span> <span class="kr">then</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onReceiveNotify</span><span class="p">(</span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="nv">key</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span><span class="kr">then</span>
 </span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>  <span class="kr">end</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kr">function</span> <span class="nf">onReceiveNotify</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;onReceiveNotify&#39;</span><span class="p">)</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> key   =&#39;</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span>
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> value =&#39;</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onReceiveNotify</span><span class="p">(</span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">self</span><span class="p">.</span><span class="py">name</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;onReceiveNotify&#39;</span><span class="p">)</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> key   =&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">key</span><span class="p">)</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> value =&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
 </span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
@@ -1301,11 +1336,11 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Notify Send - Value</label><label for="__tabbed_3_2">Notify Send - Table</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">notify</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">:</span><span class="nf">notify</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">notify</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">,</span> <span class="p">{</span><span class="n">obj</span><span class="o">=</span><span class="n">self</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">})</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">:</span><span class="nf">notify</span><span class="p">(</span><span class="s2">&quot;update&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="nv">obj</span><span class="o">=</span><span class="nv">self</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="o">=</span><span class="mi">1</span><span class="p">})</span>
 </span></code></pre></div>
 </div>
 </div>
@@ -1318,39 +1353,39 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Snippet</label><label for="__tabbed_4_2">Snippet 2</label><label for="__tabbed_4_3">Debug</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-Lua highlight"><span class="filename">OSC Callback - Single Value</span><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>  <span class="kd">local</span> <span class="n">arguments</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>  <span class="kr">if</span> <span class="n">path</span><span class="o">==</span><span class="s2">&quot;/&quot;</span> <span class="kr">then</span>
-</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>    <span class="kd">local</span> <span class="n">v</span> <span class="o">=</span> <span class="n">arguments</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">value</span>
+<div class="language-Lua highlight"><span class="filename">OSC Callback - Single Value</span><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onReceiveOSC</span><span class="p">(</span><span class="nv">message</span><span class="p">,</span><span class="w"> </span><span class="nv">connections</span><span class="p">)</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">arguments</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="nv">path</span><span class="o">==</span><span class="s2">&quot;/&quot;</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">v</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">arguments</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nv">value</span>
 </span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>
-</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>  <span class="kr">end</span>
+</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-12-8"><a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><span class="filename">OSC Callback - Loop Values</span><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>  <span class="kd">local</span> <span class="n">arguments</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>  <span class="kr">if</span> <span class="n">path</span><span class="o">==</span><span class="s2">&quot;/&quot;</span> <span class="kr">then</span>
-</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>    <span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="n">arguments</span> <span class="kr">do</span>
-</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>      <span class="kd">local</span> <span class="n">tag</span> <span class="o">=</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">tag</span>
-</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>      <span class="kd">local</span> <span class="n">v</span> <span class="o">=</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">value</span>
-</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>    <span class="kr">end</span>
-</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>  <span class="kr">end</span>
+<div class="language-Lua highlight"><span class="filename">OSC Callback - Loop Values</span><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onReceiveOSC</span><span class="p">(</span><span class="nv">message</span><span class="p">,</span><span class="w"> </span><span class="nv">connections</span><span class="p">)</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">arguments</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="nv">path</span><span class="o">==</span><span class="s2">&quot;/&quot;</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">    </span><span class="kr">for</span><span class="w"> </span><span class="nv">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="nv">arguments</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">      </span><span class="kd">local</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">arguments</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">tag</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="w">      </span><span class="kd">local</span><span class="w"> </span><span class="nv">v</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">arguments</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">value</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="w">    </span><span class="kr">end</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kr">function</span> <span class="nf">onReceiveOSC</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">connections</span><span class="p">)</span>
-</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="s1">&#39;onReceiveOSC&#39;</span><span class="p">)</span>
-</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>  <span class="kd">local</span> <span class="n">arguments</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> path        =&#39;</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
-</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>  <span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="n">arguments</span> <span class="kr">do</span>
-</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> argument    =&#39;</span><span class="p">,</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">tag</span><span class="p">,</span> <span class="n">arguments</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">value</span><span class="p">)</span>
-</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>  <span class="kr">end</span>
-</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>  <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> connections =&#39;</span><span class="p">,</span> <span class="nb">table.unpack</span><span class="p">(</span><span class="n">connections</span><span class="p">))</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onReceiveOSC</span><span class="p">(</span><span class="nv">message</span><span class="p">,</span><span class="w"> </span><span class="nv">connections</span><span class="p">)</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">self</span><span class="p">.</span><span class="py">name</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;onReceiveOSC&#39;</span><span class="p">)</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">arguments</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">message</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> path        =&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">path</span><span class="p">)</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="w">  </span><span class="kr">for</span><span class="w"> </span><span class="nv">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="o">#</span><span class="nv">arguments</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> argument    =&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">arguments</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">tag</span><span class="p">,</span><span class="w"> </span><span class="nv">arguments</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">value</span><span class="p">)</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="w">  </span><span class="kr">end</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1"> connections =&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">table.unpack</span><span class="p">(</span><span class="nv">connections</span><span class="p">))</span>
 </span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
@@ -1370,21 +1405,21 @@
 </span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="c1">-- -----------------------------------------</span>
 </span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>
 </span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="c1">-- send on all configured connections (1-5)</span>
-</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/simple&#39;</span><span class="p">)</span>
-</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/ping&#39;</span><span class="p">,</span> <span class="s1">&#39;pong&#39;</span><span class="p">)</span>
-</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/on&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
-</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/1/fader1&#39;</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/3/xy1&#39;</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">)</span>
-</span><span id="__span-15-14"><a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/mixedarguments&#39;</span><span class="p">,</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="s1">&#39;World&#39;</span><span class="p">)</span>
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/simple&#39;</span><span class="p">)</span>
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/ping&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;pong&#39;</span><span class="p">)</span>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/on&#39;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
+</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/1/fader1&#39;</span><span class="p">,</span><span class="w"> </span><span class="mf">0.5</span><span class="p">)</span>
+</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/3/xy1&#39;</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">,</span><span class="w"> </span><span class="mf">0.75</span><span class="p">)</span>
+</span><span id="__span-15-14"><a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/mixedarguments&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Hello&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;World&#39;</span><span class="p">)</span>
 </span><span id="__span-15-15"><a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a>
 </span><span id="__span-15-16"><a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a><span class="c1">-- send only on connections 1 and 2</span>
-</span><span id="__span-15-17"><a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/1/fader1&#39;</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="p">{</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">true</span> <span class="p">})</span>
+</span><span id="__span-15-17"><a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/1/fader1&#39;</span><span class="p">,</span><span class="w"> </span><span class="mf">0.5</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">})</span>
 </span><span id="__span-15-18"><a id="__codelineno-15-18" name="__codelineno-15-18" href="#__codelineno-15-18"></a>
 </span><span id="__span-15-19"><a id="__codelineno-15-19" name="__codelineno-15-19" href="#__codelineno-15-19"></a><span class="c1">-- send only on connections 1 and 3</span>
-</span><span id="__span-15-20"><a id="__codelineno-15-20" name="__codelineno-15-20" href="#__codelineno-15-20"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/3/xy1&#39;</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">,</span> <span class="p">{</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span> <span class="p">})</span>
+</span><span id="__span-15-20"><a id="__codelineno-15-20" name="__codelineno-15-20" href="#__codelineno-15-20"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/3/xy1&#39;</span><span class="p">,</span><span class="w"> </span><span class="mf">0.25</span><span class="p">,</span><span class="w"> </span><span class="mf">0.75</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">})</span>
 </span><span id="__span-15-21"><a id="__codelineno-15-21" name="__codelineno-15-21" href="#__codelineno-15-21"></a>
 </span><span id="__span-15-22"><a id="__codelineno-15-22" name="__codelineno-15-22" href="#__codelineno-15-22"></a><span class="c1">-- send only on connections 1 and 5</span>
-</span><span id="__span-15-23"><a id="__codelineno-15-23" name="__codelineno-15-23" href="#__codelineno-15-23"></a><span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/mixedarguments&#39;</span><span class="p">,</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="s1">&#39;World&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span> <span class="p">})</span>
+</span><span id="__span-15-23"><a id="__codelineno-15-23" name="__codelineno-15-23" href="#__codelineno-15-23"></a><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/mixedarguments&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Hello&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;World&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">})</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
@@ -1393,32 +1428,32 @@
 </span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="c1">-- with argument type tags</span>
 </span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="c1">-- -----------------------------------------</span>
 </span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>
-</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="n">sendOSC</span><span class="p">(</span>
-</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>  <span class="c1">-- message</span>
-</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>  <span class="p">{</span>
-</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>    <span class="c1">-- path</span>
-</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>    <span class="s1">&#39;/complex&#39;</span><span class="p">,</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="nf">sendOSC</span><span class="p">(</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="w">  </span><span class="c1">-- message</span>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="w">    </span><span class="c1">-- path</span>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="w">    </span><span class="s1">&#39;/complex&#39;</span><span class="p">,</span>
 </span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>
-</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>    <span class="c1">-- argument list</span>
-</span><span id="__span-16-13"><a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a>    <span class="p">{</span>
-</span><span id="__span-16-14"><a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;T&#39;</span> <span class="p">},</span>                                     <span class="c1">-- true</span>
-</span><span id="__span-16-15"><a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;F&#39;</span> <span class="p">},</span>                                     <span class="c1">-- false</span>
-</span><span id="__span-16-16"><a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;N&#39;</span> <span class="p">},</span>                                     <span class="c1">-- nil</span>
-</span><span id="__span-16-17"><a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;I&#39;</span> <span class="p">},</span>                                     <span class="c1">-- infinitum</span>
-</span><span id="__span-16-18"><a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;i&#39;</span><span class="p">,</span> <span class="n">value</span> <span class="o">=</span> <span class="mi">42</span> <span class="p">},</span>                         <span class="c1">-- int32</span>
-</span><span id="__span-16-19"><a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;f&#39;</span><span class="p">,</span> <span class="n">value</span> <span class="o">=</span> <span class="mf">3.14</span> <span class="p">},</span>                       <span class="c1">-- float32</span>
-</span><span id="__span-16-20"><a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;s&#39;</span><span class="p">,</span> <span class="n">value</span> <span class="o">=</span> <span class="s1">&#39;Goodbye Cruel World&#39;</span> <span class="p">},</span>      <span class="c1">-- string</span>
-</span><span id="__span-16-21"><a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a>      <span class="p">{</span> <span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="n">value</span> <span class="o">=</span> <span class="p">{</span> <span class="mh">0xC0</span><span class="p">,</span> <span class="mh">0x00</span><span class="p">,</span> <span class="mh">0x10</span><span class="p">,</span> <span class="mh">0xFF</span> <span class="p">}</span> <span class="p">}</span>  <span class="c1">-- blob</span>
-</span><span id="__span-16-22"><a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a>    <span class="p">}</span>
-</span><span id="__span-16-23"><a id="__codelineno-16-23" name="__codelineno-16-23" href="#__codelineno-16-23"></a>  <span class="p">},</span>
-</span><span id="__span-16-24"><a id="__codelineno-16-24" name="__codelineno-16-24" href="#__codelineno-16-24"></a>  <span class="c1">-- connections</span>
-</span><span id="__span-16-25"><a id="__codelineno-16-25" name="__codelineno-16-25" href="#__codelineno-16-25"></a>  <span class="p">{</span>
-</span><span id="__span-16-26"><a id="__codelineno-16-26" name="__codelineno-16-26" href="#__codelineno-16-26"></a>    <span class="kc">true</span><span class="p">,</span> <span class="c1">-- 1</span>
-</span><span id="__span-16-27"><a id="__codelineno-16-27" name="__codelineno-16-27" href="#__codelineno-16-27"></a>    <span class="kc">true</span><span class="p">,</span> <span class="c1">-- 2</span>
-</span><span id="__span-16-28"><a id="__codelineno-16-28" name="__codelineno-16-28" href="#__codelineno-16-28"></a>    <span class="kc">true</span><span class="p">,</span> <span class="c1">-- 3</span>
-</span><span id="__span-16-29"><a id="__codelineno-16-29" name="__codelineno-16-29" href="#__codelineno-16-29"></a>    <span class="kc">true</span><span class="p">,</span> <span class="c1">-- 4</span>
-</span><span id="__span-16-30"><a id="__codelineno-16-30" name="__codelineno-16-30" href="#__codelineno-16-30"></a>    <span class="kc">true</span>  <span class="c1">-- 5</span>
-</span><span id="__span-16-31"><a id="__codelineno-16-31" name="__codelineno-16-31" href="#__codelineno-16-31"></a>  <span class="p">}</span>
+</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a><span class="w">    </span><span class="c1">-- argument list</span>
+</span><span id="__span-16-13"><a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-16-14"><a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;T&#39;</span><span class="w"> </span><span class="p">},</span><span class="w">                                     </span><span class="c1">-- true</span>
+</span><span id="__span-16-15"><a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;F&#39;</span><span class="w"> </span><span class="p">},</span><span class="w">                                     </span><span class="c1">-- false</span>
+</span><span id="__span-16-16"><a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;N&#39;</span><span class="w"> </span><span class="p">},</span><span class="w">                                     </span><span class="c1">-- nil</span>
+</span><span id="__span-16-17"><a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;I&#39;</span><span class="w"> </span><span class="p">},</span><span class="w">                                     </span><span class="c1">-- infinitum</span>
+</span><span id="__span-16-18"><a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;i&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">42</span><span class="w"> </span><span class="p">},</span><span class="w">                         </span><span class="c1">-- int32</span>
+</span><span id="__span-16-19"><a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;f&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">3.14</span><span class="w"> </span><span class="p">},</span><span class="w">                       </span><span class="c1">-- float32</span>
+</span><span id="__span-16-20"><a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;s&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Goodbye Cruel World&#39;</span><span class="w"> </span><span class="p">},</span><span class="w">      </span><span class="c1">-- string</span>
+</span><span id="__span-16-21"><a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="mh">0xC0</span><span class="p">,</span><span class="w"> </span><span class="mh">0x00</span><span class="p">,</span><span class="w"> </span><span class="mh">0x10</span><span class="p">,</span><span class="w"> </span><span class="mh">0xFF</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c1">-- blob</span>
+</span><span id="__span-16-22"><a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-16-23"><a id="__codelineno-16-23" name="__codelineno-16-23" href="#__codelineno-16-23"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-16-24"><a id="__codelineno-16-24" name="__codelineno-16-24" href="#__codelineno-16-24"></a><span class="w">  </span><span class="c1">-- connections</span>
+</span><span id="__span-16-25"><a id="__codelineno-16-25" name="__codelineno-16-25" href="#__codelineno-16-25"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-16-26"><a id="__codelineno-16-26" name="__codelineno-16-26" href="#__codelineno-16-26"></a><span class="w">    </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="c1">-- 1</span>
+</span><span id="__span-16-27"><a id="__codelineno-16-27" name="__codelineno-16-27" href="#__codelineno-16-27"></a><span class="w">    </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="c1">-- 2</span>
+</span><span id="__span-16-28"><a id="__codelineno-16-28" name="__codelineno-16-28" href="#__codelineno-16-28"></a><span class="w">    </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="c1">-- 3</span>
+</span><span id="__span-16-29"><a id="__codelineno-16-29" name="__codelineno-16-29" href="#__codelineno-16-29"></a><span class="w">    </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="c1">-- 4</span>
+</span><span id="__span-16-30"><a id="__codelineno-16-30" name="__codelineno-16-30" href="#__codelineno-16-30"></a><span class="w">    </span><span class="kc">true</span><span class="w">  </span><span class="c1">-- 5</span>
+</span><span id="__span-16-31"><a id="__codelineno-16-31" name="__codelineno-16-31" href="#__codelineno-16-31"></a><span class="w">  </span><span class="p">}</span>
 </span><span id="__span-16-32"><a id="__codelineno-16-32" name="__codelineno-16-32" href="#__codelineno-16-32"></a><span class="p">)</span>
 </span></code></pre></div>
 </div>
@@ -1428,100 +1463,100 @@
 <h2 id="math">Math<a class="headerlink" href="#math" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Map: Remap a value to a different range</summary>
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kr">function</span> <span class="nf">map</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">oldMin</span><span class="p">,</span> <span class="n">oldMax</span><span class="p">,</span> <span class="n">newMin</span><span class="p">,</span> <span class="n">newMax</span><span class="p">)</span>
-</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>  <span class="kr">return</span> <span class="p">(((</span><span class="n">value</span> <span class="o">-</span> <span class="n">oldMin</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">newMax</span> <span class="o">-</span> <span class="n">newMin</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">oldMax</span> <span class="o">-</span> <span class="n">oldMin</span><span class="p">))</span> <span class="o">+</span> <span class="n">newMin</span>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">map</span><span class="p">(</span><span class="nv">value</span><span class="p">,</span><span class="w"> </span><span class="nv">oldMin</span><span class="p">,</span><span class="w"> </span><span class="nv">oldMax</span><span class="p">,</span><span class="w"> </span><span class="nv">newMin</span><span class="p">,</span><span class="w"> </span><span class="nv">newMax</span><span class="p">)</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="w">  </span><span class="kr">return</span><span class="w"> </span><span class="p">(((</span><span class="nv">value</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">oldMin</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="nv">newMax</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">newMin</span><span class="p">))</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="nv">oldMax</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">oldMin</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">newMin</span>
 </span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="tables">Tables<a class="headerlink" href="#tables" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Deep Table Clear</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kr">function</span> <span class="nf">deepClear</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
-</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>  <span class="kr">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="kr">in</span> <span class="nb">pairs</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="kr">do</span>
-</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>    <span class="kr">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;table&quot;</span> <span class="kr">then</span>
-</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>      <span class="n">deepClear</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
-</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>    <span class="kr">end</span>
-</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>    <span class="n">t</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="kc">nil</span>
-</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>  <span class="kr">end</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">deepClear</span><span class="p">(</span><span class="nv">t</span><span class="p">)</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="w">  </span><span class="kr">for</span><span class="w"> </span><span class="nv">k</span><span class="p">,</span><span class="w"> </span><span class="nv">v</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">t</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nb">type</span><span class="p">(</span><span class="nv">v</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;table&quot;</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="w">      </span><span class="nf">deepClear</span><span class="p">(</span><span class="nv">v</span><span class="p">)</span>
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="w">    </span><span class="kr">end</span>
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="w">    </span><span class="nv">t</span><span class="p">[</span><span class="nv">k</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">nil</span>
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="kr">end</span>
 </span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>
 </span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a><span class="c1">-- Example usage:</span>
-</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a><span class="n">myTable</span> <span class="o">=</span> <span class="p">{</span>
-</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a>  <span class="n">a</span> <span class="o">=</span> <span class="p">{</span>
-</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a>    <span class="n">b</span> <span class="o">=</span> <span class="p">{</span>
-</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a>      <span class="n">c</span> <span class="o">=</span> <span class="s2">&quot;value&quot;</span>
-</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a>    <span class="p">}</span>
-</span><span id="__span-18-16"><a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a>  <span class="p">},</span>
-</span><span id="__span-18-17"><a id="__codelineno-18-17" name="__codelineno-18-17" href="#__codelineno-18-17"></a>  <span class="n">d</span> <span class="o">=</span> <span class="s2">&quot;another value&quot;</span>
+</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a><span class="nv">myTable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a><span class="w">  </span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a><span class="w">    </span><span class="nv">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a><span class="w">      </span><span class="nv">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;value&quot;</span>
+</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-18-16"><a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-18-17"><a id="__codelineno-18-17" name="__codelineno-18-17" href="#__codelineno-18-17"></a><span class="w">  </span><span class="nv">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;another value&quot;</span>
 </span><span id="__span-18-18"><a id="__codelineno-18-18" name="__codelineno-18-18" href="#__codelineno-18-18"></a><span class="p">}</span>
 </span><span id="__span-18-19"><a id="__codelineno-18-19" name="__codelineno-18-19" href="#__codelineno-18-19"></a>
-</span><span id="__span-18-20"><a id="__codelineno-18-20" name="__codelineno-18-20" href="#__codelineno-18-20"></a><span class="n">deepClear</span><span class="p">(</span><span class="n">myTable</span><span class="p">)</span>
+</span><span id="__span-18-20"><a id="__codelineno-18-20" name="__codelineno-18-20" href="#__codelineno-18-20"></a><span class="nf">deepClear</span><span class="p">(</span><span class="nv">myTable</span><span class="p">)</span>
 </span></code></pre></div>
 </details>
 <details class="code">
 <summary>Find nearest value in table</summary>
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kr">function</span> <span class="nf">findClosestValue</span><span class="p">(</span><span class="n">table_index</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
-</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>  <span class="kd">local</span> <span class="n">value_dif</span> <span class="o">=</span> <span class="mi">20000</span>
-</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>  <span class="kd">local</span> <span class="n">num_items</span> <span class="o">=</span> <span class="o">#</span><span class="n">table_index</span>
-</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>  <span class="kd">local</span> <span class="n">lowest_index</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>  <span class="kr">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">table_value</span> <span class="kr">in</span> <span class="nb">pairs</span><span class="p">(</span><span class="n">table_index</span><span class="p">)</span> <span class="kr">do</span>
-</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>    <span class="kd">local</span> <span class="n">dif</span> <span class="o">=</span> <span class="nb">math.abs</span><span class="p">(</span><span class="n">table_value</span> <span class="o">-</span> <span class="n">value</span><span class="p">)</span>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">findClosestValue</span><span class="p">(</span><span class="nv">table_index</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">value_dif</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20000</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">num_items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">#</span><span class="nv">table_index</span>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">lowest_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="w">  </span><span class="kr">for</span><span class="w"> </span><span class="nv">index</span><span class="p">,</span><span class="w"> </span><span class="nv">table_value</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">table_index</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">dif</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">math.abs</span><span class="p">(</span><span class="nv">table_value</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span>
 </span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>
-</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>    <span class="kr">if</span><span class="p">(</span><span class="n">dif</span> <span class="o">&lt;</span> <span class="n">value_dif</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>      <span class="n">value_dif</span> <span class="o">=</span> <span class="n">dif</span>
-</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>      <span class="n">lowest_index</span> <span class="o">=</span> <span class="n">index</span>
-</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>    <span class="kr">end</span>
-</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>  <span class="kr">end</span>
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="w">    </span><span class="kr">if</span><span class="p">(</span><span class="nv">dif</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nv">value_dif</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="w">      </span><span class="nv">value_dif</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dif</span>
+</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="w">      </span><span class="nv">lowest_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">index</span>
+</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a><span class="w">    </span><span class="kr">end</span>
+</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>
-</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a>  <span class="kr">return</span> <span class="n">lowest_index</span>
+</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a><span class="w">  </span><span class="kr">return</span><span class="w"> </span><span class="nv">lowest_index</span>
 </span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="pager">Pager<a class="headerlink" href="#pager" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Color All Pages in Pager</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="kd">local</span> <span class="n">tabColorOff</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.2</span><span class="p">)</span> 
-</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="kd">local</span> <span class="n">tabColorOn</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span> 
-</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="kd">local</span> <span class="n">textColorOn</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> 
-</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="kd">local</span> <span class="n">textColorOff</span> <span class="o">=</span> <span class="n">Color</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span> 
-</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="kd">local</span> <span class="n">numPages</span> <span class="o">=</span> <span class="o">#</span><span class="n">self</span><span class="p">.</span><span class="n">children</span> 
-</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">numPages</span> <span class="kr">do</span> 
-</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>    <span class="kd">local</span> <span class="n">page</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a>    <span class="kd">local</span> <span class="n">props</span> <span class="o">=</span> <span class="n">page</span><span class="p">.</span><span class="n">properties</span>
-</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a>    <span class="n">props</span><span class="p">.</span><span class="n">tabColorOff</span> <span class="o">=</span> <span class="n">tabColorOff</span> 
-</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a>    <span class="n">props</span><span class="p">.</span><span class="n">tabColorOn</span> <span class="o">=</span> <span class="n">tabColorOn</span> 
-</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a>    <span class="n">props</span><span class="p">.</span><span class="n">tabColorOff</span> <span class="o">=</span> <span class="n">textColorOn</span> 
-</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a>    <span class="n">props</span><span class="p">.</span><span class="n">tabColorOff</span> <span class="o">=</span> <span class="n">textColorOff</span> 
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">tabColorOff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">Color</span><span class="p">(</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.2</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">tabColorOn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">Color</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="kd">local</span><span class="w"> </span><span class="nv">textColorOn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">Color</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="kd">local</span><span class="w"> </span><span class="nv">textColorOff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">Color</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="kd">local</span><span class="w"> </span><span class="nv">numPages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">#</span><span class="nv">self</span><span class="p">.</span><span class="py">children</span><span class="w"> </span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="kr">for</span><span class="w"> </span><span class="nv">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nv">numPages</span><span class="w"> </span><span class="kr">do</span><span class="w"> </span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">children</span><span class="p">[</span><span class="nv">i</span><span class="p">]</span>
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">props</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="py">properties</span>
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="w">    </span><span class="nv">props</span><span class="p">.</span><span class="py">tabColorOff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">tabColorOff</span><span class="w"> </span>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="w">    </span><span class="nv">props</span><span class="p">.</span><span class="py">tabColorOn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">tabColorOn</span><span class="w"> </span>
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="w">    </span><span class="nv">props</span><span class="p">.</span><span class="py">tabColorOff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">textColorOn</span><span class="w"> </span>
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a><span class="w">    </span><span class="nv">props</span><span class="p">.</span><span class="py">tabColorOff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">textColorOff</span><span class="w"> </span>
 </span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="finding-objects">Finding Objects<a class="headerlink" href="#finding-objects" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>All Object Based On Tag</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="kd">local</span> <span class="n">t</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">findAllByProperty</span><span class="p">(</span><span class="s1">&#39;tag&#39;</span><span class="p">,</span> <span class="s1">&#39;3/6&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
-</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="nb">print</span><span class="p">(</span><span class="o">#</span><span class="n">t</span><span class="p">)</span>
-</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="kr">for</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">#</span><span class="n">t</span> <span class="kr">do</span>
-</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">name</span><span class="p">)</span>
-</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">parent</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">:</span><span class="nf">findAllByProperty</span><span class="p">(</span><span class="s1">&#39;tag&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;3/6&#39;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="nb">print</span><span class="p">(</span><span class="o">#</span><span class="nv">t</span><span class="p">)</span>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="kr">for</span><span class="w"> </span><span class="nv">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="o">#</span><span class="nv">t</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">t</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">name</span><span class="p">)</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">t</span><span class="p">[</span><span class="nv">i</span><span class="p">].</span><span class="nv">parent</span><span class="p">.</span><span class="py">name</span><span class="p">)</span>
 </span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <details class="code">
 <summary>Find All Objects Based on Tag With Full Path</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="kd">local</span> <span class="n">objs</span> <span class="o">=</span> <span class="n">root</span><span class="p">:</span><span class="n">findAllByProperty</span><span class="p">(</span><span class="s2">&quot;tag&quot;</span><span class="p">,</span> <span class="s2">&quot;3/5&quot;</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">objs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">root</span><span class="p">:</span><span class="nf">findAllByProperty</span><span class="p">(</span><span class="s2">&quot;tag&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;3/5&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
 </span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="c1">-- print all object names and their path to root</span>
-</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a><span class="kr">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">obj</span> <span class="kr">in</span> <span class="nb">ipairs</span><span class="p">(</span><span class="n">objs</span><span class="p">)</span> <span class="kr">do</span>
-</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">name</span> <span class="o">..</span> <span class="s2">&quot; &quot;</span> <span class="o">..</span> <span class="n">getPathToRoot</span><span class="p">(</span><span class="n">obj</span><span class="p">))</span>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a><span class="kr">for</span><span class="w"> </span><span class="nv">i</span><span class="p">,</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">ipairs</span><span class="p">(</span><span class="nv">objs</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="w">  </span><span class="nb">print</span><span class="p">(</span><span class="nv">obj</span><span class="p">.</span><span class="py">name</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot; &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nf">getPathToRoot</span><span class="p">(</span><span class="nv">obj</span><span class="p">))</span>
 </span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="kr">end</span>
 </span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>
-</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a><span class="kr">function</span> <span class="nf">getPathToRoot</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
-</span><span id="__span-22-8"><a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a>  <span class="kd">local</span> <span class="n">path</span> <span class="o">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">name</span>
-</span><span id="__span-22-9"><a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>  <span class="kd">local</span> <span class="n">parent</span> <span class="o">=</span> <span class="n">obj</span><span class="p">.</span><span class="n">parent</span>
-</span><span id="__span-22-10"><a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a>  <span class="kr">while</span> <span class="n">parent</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">do</span>
-</span><span id="__span-22-11"><a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a>    <span class="n">path</span> <span class="o">=</span> <span class="n">parent</span><span class="p">.</span><span class="n">name</span> <span class="o">..</span> <span class="s2">&quot;/&quot;</span> <span class="o">..</span> <span class="n">path</span>
-</span><span id="__span-22-12"><a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a>    <span class="n">parent</span> <span class="o">=</span> <span class="n">parent</span><span class="p">.</span><span class="n">parent</span>
-</span><span id="__span-22-13"><a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a>  <span class="kr">end</span>
-</span><span id="__span-22-14"><a id="__codelineno-22-14" name="__codelineno-22-14" href="#__codelineno-22-14"></a>  <span class="kr">return</span> <span class="n">path</span>
+</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a><span class="kr">function</span><span class="w"> </span><span class="nf">getPathToRoot</span><span class="p">(</span><span class="nv">obj</span><span class="p">)</span>
+</span><span id="__span-22-8"><a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">name</span>
+</span><span id="__span-22-9"><a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">parent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">parent</span>
+</span><span id="__span-22-10"><a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a><span class="w">  </span><span class="kr">while</span><span class="w"> </span><span class="nv">parent</span><span class="w"> </span><span class="o">~=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-22-11"><a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a><span class="w">    </span><span class="nv">path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">parent</span><span class="p">.</span><span class="py">name</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">&quot;/&quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">path</span>
+</span><span id="__span-22-12"><a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a><span class="w">    </span><span class="nv">parent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">parent</span><span class="p">.</span><span class="py">parent</span>
+</span><span id="__span-22-13"><a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a><span class="w">  </span><span class="kr">end</span>
+</span><span id="__span-22-14"><a id="__codelineno-22-14" name="__codelineno-22-14" href="#__codelineno-22-14"></a><span class="w">  </span><span class="kr">return</span><span class="w"> </span><span class="nv">path</span>
 </span><span id="__span-22-15"><a id="__codelineno-22-15" name="__codelineno-22-15" href="#__codelineno-22-15"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
@@ -1531,25 +1566,25 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="c1">--Deep Search</span>
-</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
-</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="kr">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">name</span> <span class="kr">in</span> <span class="nb">ipairs</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="kr">do</span> 
-</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>  <span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">findByName</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="kr">for</span><span class="w"> </span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">ipairs</span><span class="p">(</span><span class="nv">names</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span><span class="w"> </span>
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">:</span><span class="nf">findByName</span><span class="p">(</span><span class="nv">name</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
 </span><span id="__span-23-5"><a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="c1">--one level search</span>
-</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
-</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="kr">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">name</span> <span class="kr">in</span> <span class="nb">ipairs</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="kr">do</span> 
-</span><span id="__span-24-4"><a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>  <span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">:</span><span class="n">findByName</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="kc">false</span><span class="p">)</span>
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="kr">for</span><span class="w"> </span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">ipairs</span><span class="p">(</span><span class="nv">names</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span><span class="w"> </span>
+</span><span id="__span-24-4"><a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">:</span><span class="nf">findByName</span><span class="p">(</span><span class="nv">name</span><span class="p">,</span><span class="w"> </span><span class="kc">false</span><span class="p">)</span>
 </span><span id="__span-24-5"><a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="c1">--Loop Thru objects</span>
-</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
-</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="kr">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">name</span> <span class="kr">in</span> <span class="nb">ipairs</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="kr">do</span> 
-</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>  <span class="kd">local</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">parent</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;A&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;B&quot;</span><span class="p">,</span><span class="s2">&quot;C&quot;</span><span class="p">,</span><span class="s2">&quot;D&quot;</span><span class="p">}</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a><span class="kr">for</span><span class="w"> </span><span class="nv">key</span><span class="p">,</span><span class="w"> </span><span class="nv">name</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">ipairs</span><span class="p">(</span><span class="nv">names</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span><span class="w"> </span>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">parent</span><span class="p">.</span><span class="py">children</span><span class="p">[</span><span class="nv">name</span><span class="p">]</span>
 </span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="kr">end</span>
 </span></code></pre></div>
 </div>
@@ -1562,16 +1597,16 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Even Vertical spacing top to bottom</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="kr">function</span> <span class="nf">layout</span><span class="p">()</span>
-</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="kd">local</span> <span class="n">spacing</span> <span class="o">=</span> <span class="mi">15</span>
-</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="kd">local</span> <span class="n">coiunt</span> <span class="o">=</span> <span class="mi">10</span>
-</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="kr">for</span> <span class="n">index</span><span class="o">=</span><span class="n">led_count</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span> <span class="kr">do</span>
-</span><span id="__span-26-5"><a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a>    <span class="kd">local</span> <span class="n">box</span> <span class="o">=</span> <span class="s2">&quot;box&quot;</span> <span class="o">..</span> <span class="n">index</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">layout</span><span class="p">()</span>
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">spacing</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">15</span>
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="kd">local</span><span class="w"> </span><span class="nv">coiunt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span>
+</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="kr">for</span><span class="w"> </span><span class="nv">index</span><span class="o">=</span><span class="nv">led_count</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-26-5"><a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">box</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;box&quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">index</span>
 </span><span id="__span-26-6"><a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a>
-</span><span id="__span-26-7"><a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a>    <span class="n">self</span><span class="p">.</span><span class="n">children</span><span class="p">[</span><span class="n">box</span><span class="p">].</span><span class="n">frame</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">index</span> <span class="o">*</span> <span class="o">-</span> <span class="n">spacing</span> <span class="o">+</span> <span class="n">led_count</span><span class="o">*</span><span class="n">spacing</span>
-</span><span id="__span-26-8"><a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a>  <span class="kr">end</span>
+</span><span id="__span-26-7"><a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a><span class="w">    </span><span class="nv">self</span><span class="p">.</span><span class="py">children</span><span class="p">[</span><span class="nv">box</span><span class="p">].</span><span class="nv">frame</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">index</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">spacing</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">led_count</span><span class="o">*</span><span class="nv">spacing</span>
+</span><span id="__span-26-8"><a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-26-9"><a id="__codelineno-26-9" name="__codelineno-26-9" href="#__codelineno-26-9"></a><span class="kr">end</span>
-</span><span id="__span-26-10"><a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a><span class="n">layout</span><span class="p">()</span>
+</span><span id="__span-26-10"><a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a><span class="nf">layout</span><span class="p">()</span>
 </span></code></pre></div>
 </div>
 </div>
@@ -1580,57 +1615,57 @@
 <h2 id="pointers">Pointers<a class="headerlink" href="#pointers" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Translate x/y To ScreenSpace</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="kr">function</span> <span class="nf">translateToScreenSpace</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">localX</span><span class="p">,</span> <span class="n">localY</span><span class="p">)</span>
-</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>    <span class="kr">if</span> <span class="n">obj</span><span class="p">.</span><span class="n">parent</span> <span class="o">==</span> <span class="kc">nil</span> <span class="kr">then</span>
-</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>        <span class="kr">return</span> <span class="n">localX</span> <span class="o">+</span> <span class="n">obj</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">localY</span> <span class="o">+</span> <span class="n">obj</span><span class="p">.</span><span class="n">y</span>
-</span><span id="__span-27-4"><a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a>    <span class="kr">else</span>
-</span><span id="__span-27-5"><a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a>        <span class="kd">local</span> <span class="n">parentX</span><span class="p">,</span> <span class="n">parentY</span> <span class="o">=</span> <span class="n">translateToScreenSpace</span><span class="p">(</span><span class="n">obj</span><span class="p">.</span><span class="n">parent</span><span class="p">,</span> <span class="n">localX</span><span class="p">,</span> <span class="n">localY</span><span class="p">)</span>
-</span><span id="__span-27-6"><a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a>        <span class="kr">return</span> <span class="n">parentX</span> <span class="o">+</span> <span class="n">obj</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">parentY</span> <span class="o">+</span> <span class="n">obj</span><span class="p">.</span><span class="n">y</span>
-</span><span id="__span-27-7"><a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a>    <span class="kr">end</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="kr">function</span><span class="w"> </span><span class="nf">translateToScreenSpace</span><span class="p">(</span><span class="nv">obj</span><span class="p">,</span><span class="w"> </span><span class="nv">localX</span><span class="p">,</span><span class="w"> </span><span class="nv">localY</span><span class="p">)</span>
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a><span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">parent</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">localX</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">localY</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">y</span>
+</span><span id="__span-27-4"><a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a><span class="w">    </span><span class="kr">else</span>
+</span><span id="__span-27-5"><a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a><span class="w">        </span><span class="kd">local</span><span class="w"> </span><span class="nv">parentX</span><span class="p">,</span><span class="w"> </span><span class="nv">parentY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">translateToScreenSpace</span><span class="p">(</span><span class="nv">obj</span><span class="p">.</span><span class="py">parent</span><span class="p">,</span><span class="w"> </span><span class="nv">localX</span><span class="p">,</span><span class="w"> </span><span class="nv">localY</span><span class="p">)</span>
+</span><span id="__span-27-6"><a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a><span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="nv">parentX</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">parentY</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">obj</span><span class="p">.</span><span class="py">y</span>
+</span><span id="__span-27-7"><a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a><span class="w">    </span><span class="kr">end</span>
 </span><span id="__span-27-8"><a id="__codelineno-27-8" name="__codelineno-27-8" href="#__codelineno-27-8"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="timers">Timers<a class="headerlink" href="#timers" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Control Double-tap</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="kd">local</span> <span class="n">delay</span> <span class="o">=</span> <span class="mi">300</span>
-</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="kd">local</span> <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">delay</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">300</span>
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">last</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
 </span><span id="__span-28-3"><a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>
-</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="kr">function</span> <span class="nf">onValueChanged</span><span class="p">()</span>
-</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>  <span class="kr">if</span><span class="p">(</span><span class="ow">not</span> <span class="n">self</span><span class="p">.</span><span class="n">values</span><span class="p">.</span><span class="n">touch</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-28-6"><a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a>    <span class="kd">local</span> <span class="n">now</span> <span class="o">=</span> <span class="n">getMillis</span><span class="p">()</span>
-</span><span id="__span-28-7"><a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a>    <span class="kr">if</span><span class="p">(</span><span class="n">now</span> <span class="o">-</span> <span class="n">last</span> <span class="o">&lt;</span> <span class="n">delay</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-28-8"><a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a>      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;double tap!&#39;</span><span class="p">)</span>
-</span><span id="__span-28-9"><a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a>      <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span id="__span-28-10"><a id="__codelineno-28-10" name="__codelineno-28-10" href="#__codelineno-28-10"></a>    <span class="kr">else</span>
-</span><span id="__span-28-11"><a id="__codelineno-28-11" name="__codelineno-28-11" href="#__codelineno-28-11"></a>      <span class="n">last</span> <span class="o">=</span> <span class="n">now</span>
-</span><span id="__span-28-12"><a id="__codelineno-28-12" name="__codelineno-28-12" href="#__codelineno-28-12"></a>    <span class="kr">end</span>
-</span><span id="__span-28-13"><a id="__codelineno-28-13" name="__codelineno-28-13" href="#__codelineno-28-13"></a>  <span class="kr">end</span>
+</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a><span class="kr">function</span><span class="w"> </span><span class="nf">onValueChanged</span><span class="p">()</span>
+</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="w">  </span><span class="kr">if</span><span class="p">(</span><span class="ow">not</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">values</span><span class="p">.</span><span class="py">touch</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-28-6"><a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">now</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getMillis</span><span class="p">()</span>
+</span><span id="__span-28-7"><a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a><span class="w">    </span><span class="kr">if</span><span class="p">(</span><span class="nv">now</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">last</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nv">delay</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-28-8"><a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a><span class="w">      </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;double tap!&#39;</span><span class="p">)</span>
+</span><span id="__span-28-9"><a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a><span class="w">      </span><span class="nv">last</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span id="__span-28-10"><a id="__codelineno-28-10" name="__codelineno-28-10" href="#__codelineno-28-10"></a><span class="w">    </span><span class="kr">else</span>
+</span><span id="__span-28-11"><a id="__codelineno-28-11" name="__codelineno-28-11" href="#__codelineno-28-11"></a><span class="w">      </span><span class="nv">last</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">now</span>
+</span><span id="__span-28-12"><a id="__codelineno-28-12" name="__codelineno-28-12" href="#__codelineno-28-12"></a><span class="w">    </span><span class="kr">end</span>
+</span><span id="__span-28-13"><a id="__codelineno-28-13" name="__codelineno-28-13" href="#__codelineno-28-13"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-28-14"><a id="__codelineno-28-14" name="__codelineno-28-14" href="#__codelineno-28-14"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <details class="code">
 <summary>Send Periodic Message</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kd">local</span> <span class="n">delay</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1">-- every 1000ms = 1s</span>
-</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="kd">local</span> <span class="n">last</span> <span class="o">=</span> <span class="mi">0</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">delay</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1000</span><span class="w"> </span><span class="c1">-- every 1000ms = 1s</span>
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">last</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
 </span><span id="__span-29-3"><a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>
-</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="kr">function</span> <span class="nf">update</span><span class="p">()</span>
-</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a>  <span class="kd">local</span> <span class="n">now</span> <span class="o">=</span> <span class="n">getMillis</span><span class="p">()</span>
-</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a>  <span class="kr">if</span><span class="p">(</span><span class="n">now</span> <span class="o">-</span> <span class="n">last</span> <span class="o">&gt;</span> <span class="n">delay</span><span class="p">)</span> <span class="kr">then</span>
-</span><span id="__span-29-7"><a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a>    <span class="n">last</span> <span class="o">=</span> <span class="n">now</span>
-</span><span id="__span-29-8"><a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a>    <span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/ping&#39;</span><span class="p">)</span>
-</span><span id="__span-29-9"><a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a>  <span class="kr">end</span>
+</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="kr">function</span><span class="w"> </span><span class="nf">update</span><span class="p">()</span>
+</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="w">  </span><span class="kd">local</span><span class="w"> </span><span class="nv">now</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getMillis</span><span class="p">()</span>
+</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="w">  </span><span class="kr">if</span><span class="p">(</span><span class="nv">now</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">last</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nv">delay</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-29-7"><a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a><span class="w">    </span><span class="nv">last</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">now</span>
+</span><span id="__span-29-8"><a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="w">    </span><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/ping&#39;</span><span class="p">)</span>
+</span><span id="__span-29-9"><a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-29-10"><a id="__codelineno-29-10" name="__codelineno-29-10" href="#__codelineno-29-10"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
 <h2 id="accelerometer">Accelerometer<a class="headerlink" href="#accelerometer" title="Permanent link">&para;</a></h2>
 <details class="code">
 <summary>Get accelerometer Data</summary>
-<div class="language-Lua highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kr">if</span><span class="p">(</span><span class="n">hasAccelerometer</span><span class="p">())</span> <span class="kr">then</span>
-</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>  <span class="n">update</span> <span class="o">=</span> <span class="kr">function</span><span class="p">()</span>
-</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>    <span class="kd">local</span> <span class="n">values</span> <span class="o">=</span> <span class="n">getAccelerometer</span><span class="p">()</span>
-</span><span id="__span-30-4"><a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>    <span class="n">sendOSC</span><span class="p">(</span><span class="s1">&#39;/accxyz&#39;</span><span class="p">,</span> <span class="nb">table.unpack</span><span class="p">(</span><span class="n">values</span><span class="p">))</span>
-</span><span id="__span-30-5"><a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>  <span class="kr">end</span>
+<div class="language-Lua highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="kr">if</span><span class="p">(</span><span class="nf">hasAccelerometer</span><span class="p">())</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="w">  </span><span class="nv">update</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">function</span><span class="p">()</span>
+</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a><span class="w">    </span><span class="kd">local</span><span class="w"> </span><span class="nv">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getAccelerometer</span><span class="p">()</span>
+</span><span id="__span-30-4"><a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a><span class="w">    </span><span class="nf">sendOSC</span><span class="p">(</span><span class="s1">&#39;/accxyz&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">table.unpack</span><span class="p">(</span><span class="nv">values</span><span class="p">))</span>
+</span><span id="__span-30-5"><a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a><span class="w">  </span><span class="kr">end</span>
 </span><span id="__span-30-6"><a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a><span class="kr">end</span>
 </span></code></pre></div>
 </details>
@@ -1657,14 +1692,14 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
   Back to top
 </button>
         
@@ -1680,7 +1715,7 @@
           <a href="../cheatsheet/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Touch OSC Lua Cheet Sheet">
             <div class="md-footer__button md-icon">
               
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
             </div>
             <div class="md-footer__title">
               <span class="md-footer__direction">
@@ -1705,7 +1740,7 @@
             </div>
             <div class="md-footer__button md-icon">
               
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
             </div>
           </a>
         
@@ -1738,7 +1773,7 @@
       
     
     <a href="http://kirkwoodwest.bandcamp.com" target="_blank" rel="noopener" title="kirkwoodwest.bandcamp.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8Zm48.2 326.1h-181L207.9 178h181Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496m48.2 326.1h-181L207.9 178h181z"/></svg>
     </a>
   
     
@@ -1749,7 +1784,7 @@
       
     
     <a href="http://youtube.com/kirkwoodwest" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
     </a>
   
     
@@ -1760,7 +1795,7 @@
       
     
     <a href="http://instagram.com/kirkwoodwest" target="_blank" rel="noopener" title="instagram.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"/></svg>
     </a>
   
     
@@ -1771,7 +1806,7 @@
       
     
     <a href="http://github.com/kirkwoodwest" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
 </div>
@@ -1794,12 +1829,6 @@
           <form class="md-consent__form md-grid md-typeset" name="consent">
             
 
-  
-    
-  
-
-
-
 
   
 
@@ -1810,18 +1839,27 @@
 <div class="md-consent__settings">
   <ul class="task-list">
     
-      
+    
       
         
-        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
       
-      <li class="task-list-item">
-        <label class="task-list-control">
-          <input type="checkbox" name="analytics" checked>
-          <span class="task-list-indicator"></span>
-          Google Analytics
-        </label>
-      </li>
+    
+    
+      
+    
     
   </ul>
 </div>
@@ -1843,15 +1881,19 @@
           </form>
         </aside>
       </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
-    
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.top", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "search.highlight", "search.share", "search.suggestC", "toc.follow", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
     
-      <script src="../../../assets/javascripts/bundle.caa56a14.min.js"></script>
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.top", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "search.highlight", "search.share", "search.suggestC", "toc.follow", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.50899def.min.js"></script>
       
         <script src="../../../assets/javascripts/tablesort/tablesort.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
